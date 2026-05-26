@@ -1,6 +1,9 @@
-// ===== Chinatownized Type Definitions =====
+// ===== Charming Destinations Type Definitions =====
 
 export type CategorySlug =
+  | "museums"
+  | "ancient-towns"
+  | "citywalks"
   | "village-vibes"
   | "hanfu-diaries"
   | "cyberpunk-cities"
