@@ -26,6 +26,7 @@ This file tracks the current state of the project so future Claude and Codex run
 - Reworked the `China Spa` article to cover Northeast bathhouse culture and Shanghai's Jile Tang as the main modern reference points.
 - Added a first `Citywalks` article covering Shanghai Postal Museum, the Bund, Waibaidu Bridge, and White Magnolia Plaza.
 - Added a photo-first `Citywalks` variant with a stronger Bund skyline and river-light emphasis.
+- Added a Shanghai Top 10 museums shortlist and a 2026 summer exhibition roadmap covering Beijing, Shanghai, and Guangzhou.
 
 ## In Progress
 
@@ -44,6 +45,7 @@ This file tracks the current state of the project so future Claude and Codex run
 - Confirm whether the China Spa hero image should be replaced with a more China-specific public source later.
 - Keep building the Citywalks channel with Shanghai-first routes before widening to other cities.
 - Keep the photo-first variant focused on lighting and skyline contrast rather than route density.
+- Keep the new museum roadmap focused on travel utility: city, province, and transfer sequence.
 
 ## Next
 

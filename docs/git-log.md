@@ -106,6 +106,13 @@ Use one entry per meaningful commit or push:
 - Commit: pending
 - Push: no
 
+- Date: 2026-05-26
+- Change: Added a Shanghai Top 10 museums shortlist article and a 2026 summer exhibition roadmap for Beijing, Shanghai, and Guangzhou.
+- Reason: The user wanted museum planning content with city/province labels and transfer guidance after arrival.
+- Impact: The Museums channel now has a practical overview piece and a trip-planning exhibition guide for summer 2026.
+- Commit: pending
+- Push: no
+
 ## Usage Rule
 
 - Add a new entry after each meaningful commit or push that changes product behavior, architecture, or documented decisions.

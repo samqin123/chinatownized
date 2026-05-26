@@ -77,6 +77,12 @@ This file records durable product and implementation decisions so Claude and Cod
 - Status: Approved.
 
 - Date: 2026-05-26
+- Decision: Add a Shanghai Top 10 museums shortlist article and a 2026 summer exhibition roadmap for Beijing, Shanghai, and Guangzhou.
+- Reason: The user wants one practical museum overview plus one route-oriented summer exhibition guide with city, province, and transfer notes.
+- Scope: Museums channel expansion.
+- Status: Approved.
+
+- Date: 2026-05-26
 - Decision: Add a photo-first Shanghai citywalk variant focused on the Postal Museum, Waibaidu Bridge, and the Bund skyline.
 - Reason: The user selected the photography-first option and wanted the route optimized for visual payoff.
 - Scope: Citywalks editorial variant.

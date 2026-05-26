@@ -2,6 +2,117 @@ import type { Guide } from "@/types";
 
 export const guides: Guide[] = [
   {
+    slug: "shanghai-top-10-museums-practical-shortlist",
+    title: "Shanghai's Top 10 Museums: The Shortlist Foreign Visitors Actually Need",
+    excerpt:
+      "Shanghai's museum scene is not just about one headline name. This is the practical shortlist: downtown first, then Pudong and West Bund if you still have time.",
+    dateline: "SHANGHAI",
+    category: "museums",
+    author: {
+      name: "Marcus Chen",
+      avatar: "/authors/marcus.jpg",
+      bio: "Beijing-based travel writer since 2019. Writes museum stories for people who want the practical version, not the brochure version.",
+    },
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Shanghai%20Museum.jpg",
+    imageAlt: "The exterior of Shanghai Museum in People's Square, Shanghai",
+    readTime: 10,
+    featured: true,
+    tags: ["shanghai", "museums", "huangpu", "people's square", "shortlist"],
+    body: `
+      <p>Shanghai has enough museums to keep you busy for weeks, but most foreign visitors do not need weeks. They need a shortlist that makes sense on the ground. That is why the most useful way to think about Shanghai museums is not by prestige alone, but by location, theme, and how easy each place is to combine with the rest of the day.</p>
+
+      <h2>Why Huangpu dominates</h2>
+      <p>The downtown core still carries the strongest museum concentration for first-time visitors. That is why people keep returning to the People's Square and Bund area: the museums there are easy to pair with one another, and they sit inside the version of Shanghai that most readers already imagine when they think of the city.</p>
+      <p>If you only have one museum day, staying downtown is the smartest move. You spend less time on transit and more time actually seeing things.</p>
+
+      <figure>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Shanghai%20Museum.jpg" alt="Shanghai Museum building in People's Square" />
+      </figure>
+
+      <h2>The practical top 10</h2>
+      <ol>
+        <li><strong>Shanghai Museum</strong> - the default first stop for Chinese art and history.</li>
+        <li><strong>Shanghai History Museum</strong> - the quickest way to understand how the city became Shanghai.</li>
+        <li><strong>Shanghai Urban Planning Exhibition Center</strong> - useful if you want the city model and modern planning story.</li>
+        <li><strong>World Expo Museum</strong> - best for readers who like big-city transformation and event history.</li>
+        <li><strong>Shanghai Museum East</strong> - the cleaner modern extension of the city’s museum brand.</li>
+        <li><strong>Museum of Art Pudong</strong> - strong for blockbuster contemporary and special exhibitions.</li>
+        <li><strong>Power Station of Art</strong> - the city’s most important contemporary art anchor.</li>
+        <li><strong>Shanghai Natural History Museum</strong> - ideal for families and readers who want architecture plus science.</li>
+        <li><strong>Shanghai Astronomy Museum</strong> - worth the trip if you like immersive design and future-facing spaces.</li>
+        <li><strong>Long Museum West Bund</strong> - one of the clearest West Bund art stops for a mixed gallery day.</li>
+      </ol>
+
+      <h2>How to use the list</h2>
+      <p>For a first trip, I would split the list into three clusters. Start with People's Square if you want history and civic Shanghai. Move to Pudong if you want modern architecture and blockbuster exhibitions. Save the West Bund for the day when you want a slower art crawl and riverfront walking between museums.</p>
+      <p>The point is not to hit all ten. The point is to choose the right three for the kind of day you actually have.</p>
+
+      <h2>Best pairing logic</h2>
+      <p>Shanghai Museum pairs naturally with Shanghai History Museum and the Urban Planning Exhibition Center. Pudong works best when you combine MAP with Shanghai Museum East or the Astronomy Museum. The West Bund is best when you want one art-heavy day rather than a checklist.</p>
+
+      <h2>Bottom line</h2>
+      <p>If a visitor understands this shortlist, they already understand most of Shanghai’s museum logic. Downtown first, Pudong second, West Bund third. That is the simple version that actually works.</p>
+    `,
+  },
+  {
+    slug: "2026-summer-exhibition-roadmap-china",
+    title: "2026 Summer Exhibition Roadmap: Beijing, Shanghai, and Guangzhou, with Arrival and Transfer Notes",
+    excerpt:
+      "A curated summer exhibition route built from the 2026 national calendar: which show belongs to which city, which province it sits in, and how to connect after landing in Beijing, Shanghai, or Guangzhou.",
+    dateline: "CHINA",
+    category: "museums",
+    author: {
+      name: "Ava Turner",
+      avatar: "/authors/ava.jpg",
+      bio: "Museum and exhibition writer who focuses on special exhibitions, ticketing behavior, and audience demand stories.",
+    },
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Shanghai%20Museum%20Night.jpg",
+    imageAlt: "Shanghai Museum at night with illuminated facade",
+    readTime: 11,
+    featured: true,
+    tags: ["exhibitions", "beijing", "shanghai", "guangzhou", "summer 2026"],
+    body: `
+      <p>The 2026 summer exhibition calendar is strong enough that you can build a whole trip around it. The useful way to read it is not as a random list of big names, but as a set of three arrival hubs: Beijing, Shanghai, and Guangzhou. If you land in one of those cities, you should know which exhibition cluster is closest and how to connect from the airport or high-speed rail station without wasting the first day.</p>
+
+      <h2>Beijing, Beijing municipality</h2>
+      <p><strong>Maize, Gold, Jaguars - A Grand Exhibition of Ancient Mayan and Andean Civilizations</strong> at the Capital Museum runs from May to October 2026. This is the strongest summer anchor in Beijing because it turns the Capital Museum into a major foreign-civilization stop rather than just a city-history museum.</p>
+      <p><strong>Arrival note:</strong> if you land at Capital Airport or Daxing Airport, go straight to the city-center museum zone first, then keep the rest of the day around Tian'anmen, Qianmen, or the Grand Canal / old city axis depending on your hotel. In Beijing, a museum day works best when the transfer is finished before noon.</p>
+
+      <figure>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Capital_Museum_in_Beijing.jpg" alt="Capital Museum in Beijing" />
+      </figure>
+
+      <h2>Shanghai, Shanghai municipality</h2>
+      <p><strong>On Top of the World Tree: Ancient Civilizations of the Americas</strong> at Shanghai Museum opens on July 9, 2026, and runs until November 14, 2027. That makes it the most obvious long-run blockbuster in the city. For summer visitors, the timing is perfect because you can pair it with a clean People's Square day and still have time for the Bund at night.</p>
+      <p><strong>Giorgio Morandi: Solo</strong> at Museum of Art Pudong opens on June 17, 2026. If you are already in Pudong, this is the more refined art stop. If you only have one Shanghai museum day, use Shanghai Museum downtown first and MAP second.</p>
+      <p><strong>Arrival note:</strong> from Hongqiao, go straight to People's Square if you want Shanghai Museum. From Pudong Airport, it is usually better to sleep in Pudong or near Lujiazui if MAP is your first exhibition target. After arrival, Shanghai rewards a simple metro-based museum day more than an ambitious cross-city sprint.</p>
+
+      <figure>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Shanghai%20Museum.jpg" alt="Shanghai Museum in People's Square" />
+      </figure>
+
+      <h2>Guangzhou, Guangdong province</h2>
+      <p><strong>A Journey of Flower Discovery: An Exhibition of Chinese Flower Culture</strong> at Guangdong Museum runs through June 28, 2026. It is a good early-summer stop because it shows how a museum in southern China can turn a traditional theme into something visually fresh.</p>
+      <p><strong>The Unceasing Aura</strong> at the Xuelei Fragrance Museum in Baiyun District is another useful Guangzhou anchor. It opened as a scent-themed museum and gives the city a more lifestyle-oriented exhibition choice for visitors who want something lighter than a classic history show.</p>
+      <p><strong>Arrival note:</strong> if you land at Baiyun Airport, the best route is to get into the Pearl River New Town / central museum belt first, then branch to Baiyun or other districts on day two. Guangzhou works best when you connect the airport to one central base and do not over-split the city on the first afternoon.</p>
+
+      <figure>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/White%20Magnolia%20Plaza.jpg" alt="A Shanghai riverfront museum-style city view used as a visual stand-in for exhibition travel planning" />
+      </figure>
+
+      <h2>How to read the national calendar</h2>
+      <p>The national 20-show list is useful because it tells you where the big summer traffic is going. But for a foreign traveler, the smartest move is to compress that list into city hubs: Beijing for the capital’s civilizational showpiece, Shanghai for the large international blockbuster, and Guangzhou for the southern museum-and-lifestyle mix.</p>
+      <p>That is also how you should route the trip. Land, check in, do one museum block, eat nearby, and stop. The difference between a good museum trip and a tiring one is usually how much transit you leave for later.</p>
+
+      <h2>Bottom line</h2>
+      <p>If you are flying into one of the three hubs, the exhibition route is simple: Beijing for ancient America, Shanghai for the long-run blockbuster, Guangzhou for the more sensory and design-driven summer stops. Keep the first day local, and let the museums do the heavy lifting.</p>
+    `,
+  },
+  {
     slug: "shanghai-postal-bund-photo-walk",
     title: "Shanghai Postal Museum to the Bund: The Best Photo-First Citywalk for Old Shanghai and New Shanghai",
     excerpt:
