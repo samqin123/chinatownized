@@ -791,6 +791,195 @@ export const guides: Guide[] = [
     tags: ["mountains", "buddhism", "guizhou", "hiking", "unesco"],
     body: "",
   },
+  {
+    slug: "minhang-museum-shanghai",
+    title: "Minhang Museum in Shanghai: The District Museum That Helps You Read the City's Deep Past",
+    excerpt:
+      "Minhang Museum is one of Shanghai's most useful district museums. It explains Maqiao culture, Shanghai County history, and traditional instruments without turning the visit into homework.",
+    dateline: "SHANGHAI",
+    category: "museums",
+    author: {
+      name: "Marcus Chen",
+      avatar: "/authors/marcus.jpg",
+      bio: "Beijing-based travel writer since 2019. Writes museum stories for people who want the practical version, not the brochure version.",
+    },
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Minhang%20Museum%202.jpg",
+    imageAlt: "The exterior of Minhang Museum in Shanghai's Minhang Cultural Park",
+    readTime: 9,
+    tags: ["shanghai", "museum", "minhang", "local history", "silk road"],
+    body: `
+      <p>Minhang Museum is one of the easiest Shanghai district museums to recommend to foreign visitors, because it does something that many bigger museums do not always manage: it turns local history into a clear story. You leave with a better sense of how Shanghai grew, how older cultures shaped the region, and why the district matters now.</p>
+
+      <h2>Why it matters</h2>
+      <p>The museum is strongest when you want to understand the city before the treaty-port era stole all the attention. The Maqiao Cultural Site material is especially useful because it pushes the Shanghai story much deeper into premodern history, while the Shanghai County gallery gives readers a clean bridge into the more familiar urban era.</p>
+      <p>This is not a museum for people chasing blockbuster scale. It is for people who want context.</p>
+
+      <h2>Current and next-six-months exhibitions</h2>
+      <p>The strongest current special exhibition to note is <strong>Echoes of Silk Road resonate at Minhang Museum</strong>, which brings together 110 rare artifacts and gives the museum a wider Asian-history frame. That matters because it keeps the museum from feeling like a purely local archive.</p>
+      <p>Within the next six months, the safest recommendation is to watch the temporary exhibition hall. Minhang has a habit of mixing permanent-history strength with rotating thematic shows, so it works best when you treat it as a reliable district anchor rather than a one-off event venue.</p>
+
+      <h2>What to see first</h2>
+      <p>Start with the Shanghai County gallery, then move to Maqiao, then finish with the traditional instruments display. That order gives the visit a natural rhythm: city history, ancient roots, then living culture. It is an efficient way to understand why local museums matter in China.</p>
+
+      <figure>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Minhang%20Museum%202.jpg" alt="Minhang Museum exterior in Shanghai" />
+      </figure>
+
+      <h2>Address and opening time</h2>
+      <p><strong>Address:</strong> No. 1538 Xinzhen Road, Minhang district, Shanghai. <a href="https://www.google.com/maps/search/?api=1&query=Minhang%20Museum%2C%20No.%201538%20Xinzhen%20Road%2C%20Minhang%20district%2C%20Shanghai" target="_blank" rel="noreferrer">Google Maps</a></p>
+      <p><strong>Opening hours:</strong> Tuesday to Sunday, 9:30 am to 4:30 pm; last entry at 4:00 pm; closed on Mondays except public holidays.</p>
+      <p><strong>Transit:</strong> The simplest way is usually metro plus a short taxi or rideshare from the station. If you are already in western or southern Shanghai, Minhang fits naturally into a half-day district loop rather than a cross-city sprint.</p>
+
+      <h2>What is around it</h2>
+      <p>The museum sits inside Minhang Cultural Park, so the surrounding area is more relaxed than downtown Shanghai. That makes it a better stop for readers who want a quieter museum day, a slower lunch, or a family-friendly route.</p>
+      <p>For coffee and food, use the nearby park-side commercial options rather than trying to over-plan the stop. This is the kind of place where a simple tea break or a casual meal works better than a destination restaurant. If you want a better pairing, combine it with Qibao Old Town or another Minhang cultural stop later in the same day.</p>
+
+      <h2>Bottom line</h2>
+      <p>Minhang Museum is not the biggest Shanghai museum, but it is one of the most efficient ones for readers who want real context. It explains local history clearly, it has a solid temporary-exhibition habit, and it fits the kind of Shanghai trip that values depth over spectacle.</p>
+    `,
+  },
+  {
+    slug: "china-maritime-museum-shanghai",
+    title: "China Maritime Museum in Shanghai: The Best Museum if You Want Ports, Ships, and the Story of How China Reached the Sea",
+    excerpt:
+      "China Maritime Museum is far from the center, but it pays off with a serious coastal story, a strong 2026 exhibition plan, and a waterfront setting that suits a half-day Lingang trip.",
+    dateline: "SHANGHAI",
+    category: "museums",
+    author: {
+      name: "Ava Turner",
+      avatar: "/authors/ava.jpg",
+      bio: "Museum and exhibition writer focused on special shows, ticketing behavior, and what makes a museum worth the trip.",
+    },
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%AD%E5%9B%BD%E8%88%AA%E6%B5%B7%E5%8D%9A%E7%89%A9%E9%A6%86.jpg",
+    imageAlt: "The exterior of China Maritime Museum in Shanghai's Lingang New Town",
+    readTime: 10,
+    tags: ["shanghai", "museum", "maritime", "lingang", "special exhibition"],
+    body: `
+      <p>China Maritime Museum is one of the most specific museums in Shanghai, and that specificity is the point. If your reader likes ships, ports, trade routes, naval history, or the material story of how China connects to the sea, this museum gives them a full day’s worth of context without pretending to be everything at once.</p>
+
+      <h2>Why this museum works</h2>
+      <p>The museum is built for a more intentional visitor. It is not the easiest stop in the city, but that is exactly why it feels stronger than another generic attraction. Once you get to Lingang, the museum becomes the center of the day instead of just one stop in a crowded downtown loop.</p>
+      <p>For overseas travelers, the big value is simple: it connects maritime trade, technological change, and national expansion in a way that is easy to explain to someone who does not already know Chinese history.</p>
+
+      <h2>Current and upcoming exhibitions</h2>
+      <p>The current special shows include <strong>Paper, Water, and Conservation</strong>, which focuses on paper-based relic restoration, and <strong>Gathering at Sea IV</strong>, a donations-based exhibition that shows how private and public collecting support museum growth.</p>
+      <p>The museum’s 2026 exhibition plan also says it will continue to roll out six original temporary exhibitions with a maritime-transport focus. That matters because it means the museum is not just a permanent-collection site; it is actively building a year-round exhibition calendar.</p>
+      <p>For the next six months, this makes China Maritime Museum a better recommendation than many visitors expect. The current plan has enough movement to justify a revisit.</p>
+
+      <figure>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%AD%E5%9B%BD%E8%88%AA%E6%B5%B7%E5%8D%9A%E7%89%A9%E9%A6%86.jpg" alt="China Maritime Museum exterior in Lingang, Shanghai" />
+      </figure>
+
+      <h2>Address and opening time</h2>
+      <p><strong>Address:</strong> No. 197 Shengang Avenue, Lingang New Town, Pudong New Area, Shanghai. <a href="https://www.google.com/maps/search/?api=1&query=China%20Maritime%20Museum%2C%20No.%20197%20Shengang%20Avenue%2C%20Lingang%20New%20Town%2C%20Pudong%20New%20Area%2C%20Shanghai" target="_blank" rel="noreferrer">Google Maps</a></p>
+      <p><strong>Opening hours:</strong> 9:30 am to 4:00 pm; last admission at 3:30 pm; closed on Mondays except public holidays.</p>
+      <p><strong>Transit:</strong> Take Metro Line 16 to Dishui Lake, then continue by bus or ride-hailing. If you are already staying in Pudong, the museum is most sensible as a dedicated half-day or full-day Lingang trip.</p>
+
+      <h2>What is around it</h2>
+      <p>The museum’s waterfront setting is part of the appeal. Nearby, the Lingang and Dishui Lake area works well for a slower meal, a lakeside walk, or a coffee break before heading back to central Shanghai. This is not a dense sightseeing district, so it rewards visitors who are comfortable with one major museum plus a calm local finish.</p>
+      <p>For food, keep the plan simple: a lakeside café, a casual restaurant near the museum, or a later meal back near Dishui Lake usually makes more sense than trying to over-engineer the route. If you want a stronger day, pair the museum with a Lingang waterfront walk or an architectural stop in the same district.</p>
+
+      <h2>Bottom line</h2>
+      <p>China Maritime Museum is one of the strongest “worth the trip” museums in Shanghai. It is not downtown, but it rewards the extra transit with a serious topic, an active 2026 exhibition program, and a setting that makes the whole visit feel more complete.</p>
+    `,
+  },
+  {
+    slug: "shanghai-history-museum-peoples-square",
+    title: "Shanghai History Museum at People's Square: The Most Direct Way to Understand the City's Past and Present",
+    excerpt:
+      "Shanghai History Museum is the easiest museum to recommend if you want the city explained in one place. The current exhibition on People's Square makes it even better for first-time visitors.",
+    dateline: "SHANGHAI",
+    category: "museums",
+    author: {
+      name: "Marcus Chen",
+      avatar: "/authors/marcus.jpg",
+      bio: "Beijing-based travel writer since 2019. Writes museum stories for people who want the practical version, not the brochure version.",
+    },
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Shanghai%20History%20Museum%2020181021.jpg",
+    imageAlt: "Shanghai History Museum in the former Shanghai Race Club building near People's Square",
+    readTime: 10,
+    featured: true,
+    tags: ["shanghai", "museum", "people's square", "history", "downtown"],
+    body: `
+      <p>Shanghai History Museum is one of the most efficient museums in the city for foreign visitors. It sits in a building with real urban character, the location is easy to combine with the rest of downtown Shanghai, and the exhibition structure helps readers understand the city without needing a specialist background.</p>
+
+      <h2>Why it belongs on the shortlist</h2>
+      <p>The museum works because it gives Shanghai a narrative spine. Instead of treating the city as only a skyline or a shopping district, it shows how the city evolved through port history, commerce, urban change, and everyday life. That is useful for first-time visitors who want more than the standard postcard version.</p>
+      <p>If Shanghai Museum is the place for Chinese antiquity, Shanghai History Museum is the place for Shanghai itself.</p>
+
+      <h2>Current and next-six-months exhibitions</h2>
+      <p>The current headline show is <strong>Shanghai History Museum chronicles People's Square area's transformation</strong>, which tracks the area’s evolution over the last century and runs through November 1. It is exactly the kind of exhibition that helps first-time visitors understand why this part of the city feels so central.</p>
+      <p>The museum has also been showing Tibetan thangka art recently, which is a good reminder that the temporary program is more varied than people expect. Over the next six months, the safest editorial angle is to keep the museum on the page as a dependable downtown anchor with rotating special exhibitions.</p>
+
+      <figure>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Shanghai%20History%20Museum%2020181021.jpg" alt="Shanghai History Museum exterior near People's Square" />
+      </figure>
+
+      <h2>Address and opening time</h2>
+      <p><strong>Address:</strong> No. 325 West Nanjing Road, Huangpu district, Shanghai. <a href="https://www.google.com/maps/search/?api=1&query=Shanghai%20History%20Museum%2C%20No.%20325%20West%20Nanjing%20Road%2C%20Huangpu%20district%2C%20Shanghai" target="_blank" rel="noreferrer">Google Maps</a></p>
+      <p><strong>Opening hours:</strong> Tuesday to Sunday, 9:00 am to 5:00 pm; last entry at 4:00 pm; closed on Mondays except public holidays.</p>
+      <p><strong>Transit:</strong> Metro is the easiest option. Because the museum is in the People's Square / West Nanjing Road core, you can also combine it with a Bund walk, East Nanjing Road, or a day that starts at Shanghai Museum and ends here.</p>
+
+      <h2>What is around it</h2>
+      <p>This is the most convenient of the four museums for coffee and food. People's Square, West Nanjing Road, and the nearby shopping blocks give you plenty of options for a quick espresso, a proper lunch, or a post-museum dessert. If you want a more relaxed route, stay on the edges of the square rather than jumping straight into the busiest commercial lanes.</p>
+      <p>Nearby highlights are easy to stack: People's Square itself, Shanghai Grand Theatre, Shanghai Museum, East Nanjing Road, and the Bund are all realistic additions without overcomplicating the day. For foreign readers, that combination makes the museum feel like a natural part of Shanghai rather than a separate academic stop.</p>
+
+      <h2>Bottom line</h2>
+      <p>If you only have one museum slot for understanding Shanghai, this is the one that deserves it. The building, the location, and the exhibition structure all work together. That makes Shanghai History Museum one of the best foundations for a Shanghai museum channel aimed at foreign travelers.</p>
+    `,
+  },
+  {
+    slug: "shanghai-urban-planning-exhibition-hall",
+    title: "Shanghai Urban Planning Exhibition Hall: The Best Place to Read the City's Skyline Like a Map",
+    excerpt:
+      "If you want an architecture-minded museum in downtown Shanghai, this is the easiest answer. It explains the city through scale models, planning logic, and a central People's Square location.",
+    dateline: "SHANGHAI",
+    category: "museums",
+    author: {
+      name: "Liam Walker",
+      avatar: "/authors/liam.jpg",
+      bio: "Former architecture and urbanism journalist from the UK, now based in East Asia. Strong on public space and city structure.",
+    },
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Shanghai%20Urban%20Planning%20Exhibition%20Hall.jpg",
+    imageAlt: "Shanghai Urban Planning Exhibition Hall in People's Square, Shanghai",
+    readTime: 9,
+    tags: ["shanghai", "architecture", "urban planning", "people's square", "downtown"],
+    body: `
+      <p>Shanghai Urban Planning Exhibition Hall is the closest thing downtown Shanghai has to an architecture museum that actually helps visitors understand the city. It is not just about a building model. It is about how Shanghai reads, grows, and presents itself to the world.</p>
+
+      <h2>Why it matters</h2>
+      <p>The big value here is spatial. You see Shanghai as a city system: roads, districts, towers, waterfronts, and future planning all laid out in a way that is immediately understandable. For travelers who care about skyline photos, urban design, or why Shanghai feels so different from other Chinese cities, this museum makes the logic visible.</p>
+      <p>It also sits in the downtown core, which means the visit is easy to combine with Shanghai History Museum, Shanghai Museum, or a walk through People's Square.</p>
+
+      <h2>Current and next-six-months exhibitions</h2>
+      <p>The hall is best treated as a city-knowledge venue with rotating exhibitions and large model updates rather than a museum you visit for one fixed blockbuster. In the next six months, the most useful framing is to expect urban-planning exhibitions, public-city storytelling, and city-model updates that keep the experience fresh for repeat visitors.</p>
+      <p>That may sound less dramatic than a ticketed art show, but for foreign travelers it is one of the most practical ways to understand Shanghai’s scale and future direction.</p>
+
+      <figure>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Shanghai%20Urban%20Planning%20Exhibition%20Hall.jpg" alt="Shanghai Urban Planning Exhibition Hall building and facade" />
+      </figure>
+
+      <h2>Address and opening time</h2>
+      <p><strong>Address:</strong> No. 100 Renmin Avenue, Huangpu district, Shanghai. <a href="https://www.google.com/maps/search/?api=1&query=Shanghai%20Urban%20Planning%20Exhibition%20Hall%2C%20No.%20100%20Renmin%20Avenue%2C%20Huangpu%20district%2C%20Shanghai" target="_blank" rel="noreferrer">Google Maps</a></p>
+      <p><strong>Opening hours:</strong> 9:00 am to 5:00 pm; ticket sales end at 4:00 pm; closed on Wednesdays except national holidays.</p>
+      <p><strong>Transit:</strong> The museum is in the People's Square zone, so the subway is the cleanest solution. If you are already doing a central Shanghai day, you can walk here from other downtown cultural stops.</p>
+
+      <h2>What is around it</h2>
+      <p>For coffee and food, this is one of the easiest museums in the city. The People's Square and West Nanjing Road area is full of cafés, malls, and casual lunch options, so you do not need to structure the day around the museum itself.</p>
+      <p>Nearby, the obvious pairings are Shanghai History Museum, Shanghai Museum, the People's Park area, and a later Bund or Nanjing Road walk. If you want one architectural viewpoint plus one historical museum, this is the easiest downtown pairing to sell.</p>
+
+      <h2>Bottom line</h2>
+      <p>Shanghai Urban Planning Exhibition Hall is the best “architecture museum” recommendation for readers who want to understand the city rather than just look at a building. It works because it is practical, central, and visually easy to grasp.</p>
+    `,
+  },
 ];
 
 export function getGuide(slug: string): Guide | undefined {
