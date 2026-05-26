@@ -33,7 +33,7 @@ export default function HomePage() {
     <section className="mx-auto max-w-6xl px-4 pb-16">
       <div className="card-clip mx-auto max-w-2xl p-8 text-center">
         <p className="font-mono text-xs tracking-widest text-ink-muted uppercase">The Weekly Dispatch</p>
-        <h2 className="mt-2 font-heading text-2xl font-bold">Get Chinatownized in your inbox.</h2>
+        <h2 className="mt-2 font-heading text-2xl font-bold">Get Charming Destinations in your inbox.</h2>
         <p className="mt-2 text-sm text-ink-muted">One email every Friday.</p>
         <div className="mx-auto mt-6 flex max-w-md gap-2">
           <input type="email" placeholder="your@email.com" className="flex-1 border border-divider bg-parchment px-4 py-3 text-sm outline-none focus:border-primary" />

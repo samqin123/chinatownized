@@ -2,6 +2,30 @@ import type { Category } from "@/types";
 
 export const categories: Category[] = [
   {
+    slug: "museums",
+    title: "Museums",
+    description:
+      "Shanghai and Beijing first: the museums, exhibitions, and institutions most worth building a trip around.",
+    emoji: "🏛️",
+    color: "bg-slate-50",
+  },
+  {
+    slug: "ancient-towns",
+    title: "Ancient Towns",
+    description:
+      "Suzhou-adjacent water towns, canal walks, and old streets that still feel best after sunset.",
+    emoji: "🛶",
+    color: "bg-cyan-50",
+  },
+  {
+    slug: "citywalks",
+    title: "Citywalks",
+    description:
+      "Walkable routes, street-level discoveries, and the best neighborhoods to explore on foot.",
+    emoji: "🚶",
+    color: "bg-orange-50",
+  },
+  {
     slug: "village-vibes",
     title: "Village Vibes",
     description:

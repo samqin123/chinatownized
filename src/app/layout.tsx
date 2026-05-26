@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { DM_Mono, Inter, Playfair_Display } from "next/font/google";
+import ContactWidget from "@/components/ContactWidget";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -23,11 +24,11 @@ const dmMono = DM_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://chinatownized.com"),
   title: {
-    default: "Chinatownized — The Travel Gazette for the Curious Foreigner",
-    template: "%s | Chinatownized",
+    default: "Charming Destinations — China travel, museums, and citywalks",
+    template: "%s | Charming Destinations",
   },
   description:
-    "Don't visit China. Get Chinatownized. Deep dispatches from China's villages, ancient cities, cyberpunk streets, and hidden nature.",
+    "A China-focused travel magazine for curious visitors. Deep dispatches from museums, citywalks, exhibitions, and hidden places across China.",
   keywords: [
     "China travel guide",
     "China off the beaten path",
@@ -41,15 +42,15 @@ export const metadata: Metadata = {
     "China hidden gems",
   ],
   openGraph: {
-    siteName: "Chinatownized",
-    title: "Chinatownized — The Travel Gazette for the Curious Foreigner",
-    description: "Don't visit China. Get Chinatownized.",
+    siteName: "Charming Destinations",
+    title: "Charming Destinations — China travel, museums, and citywalks",
+    description: "A China-focused travel magazine for curious visitors.",
     images: ["/og-default.jpg"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Chinatownized",
-    description: "Don't visit China. Get Chinatownized.",
+    title: "Charming Destinations",
+    description: "A China-focused travel magazine for curious visitors.",
     images: ["/og-default.jpg"],
   },
 };
@@ -63,6 +64,7 @@ export default function RootLayout({
     <html lang="en" className={`${playfair.variable} ${inter.variable} ${dmMono.variable}`}>
       <body className="relative min-h-screen antialiased">
         <div className="relative z-10 flex min-h-screen flex-col">{children}</div>
+        <ContactWidget />
       </body>
     </html>
   );
