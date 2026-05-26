@@ -16,9 +16,11 @@ export default function PrivacyPage() {
           improve the reader experience, and respond to requests.
         </p>
         <p className="mt-4 text-[var(--color-ink-muted)] leading-relaxed">
-          We may use standard analytics, email delivery, and affiliate tracking tools. These
-          services may collect technical information such as browser type, pages visited, or basic
-          referral data. We do not intend to collect more personal data than necessary.
+          We may use standard analytics, email delivery, and affiliate tracking tools. For
+          analytics, this site may use Google Analytics 4 and Microsoft Clarity to understand
+          page traffic and improve the reader experience. These services may collect technical
+          information such as browser type, pages visited, or basic referral data. We do not
+          intend to collect more personal data than necessary.
         </p>
         <p className="mt-4 text-[var(--color-ink-muted)] leading-relaxed">
           If you subscribe or contact us, your information will only be used for the purpose you

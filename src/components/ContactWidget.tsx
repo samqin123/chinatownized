@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackEvent } from "@/lib/analytics";
 
 export default function ContactWidget() {
   const [collapsed, setCollapsed] = useState(false);
@@ -13,7 +14,12 @@ export default function ContactWidget() {
       {/* Toggle button */}
       <button
         type="button"
-        onClick={() => setCollapsed(!collapsed)}
+        onClick={() => {
+          trackEvent("contact_widget_toggle", {
+            state: collapsed ? "expanded" : "collapsed",
+          });
+          setCollapsed(!collapsed);
+        }}
         aria-expanded={!collapsed}
         aria-label={collapsed ? "Expand contact widget" : "Collapse contact widget"}
         className="flex w-8 cursor-pointer items-center justify-center rounded-l-3xl border-0 border-r border-r-[var(--color-divider)] bg-transparent text-[var(--color-ink-faint)] transition-colors hover:text-[var(--color-ink)]"
@@ -45,6 +51,8 @@ export default function ContactWidget() {
             target="_blank"
             rel="noopener noreferrer"
             title="Join WhatsApp Group"
+            data-analytics-event="contact_click"
+            data-analytics-channel="whatsapp"
             className="flex h-10 w-10 items-center justify-center rounded-full bg-[rgba(37,211,102,0.1)] text-[#25d366] shadow-sm transition-transform hover:-translate-y-0.5"
           >
             <svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5" aria-hidden="true">
@@ -59,6 +67,8 @@ export default function ContactWidget() {
             target="_blank"
             rel="noopener noreferrer"
             title="Join Telegram Group"
+            data-analytics-event="contact_click"
+            data-analytics-channel="telegram"
             className="flex h-10 w-10 items-center justify-center rounded-full bg-[rgba(0,136,204,0.1)] text-[#0088cc] shadow-sm transition-transform hover:-translate-y-0.5"
           >
             <svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5" aria-hidden="true">
@@ -73,6 +83,8 @@ export default function ContactWidget() {
             target="_blank"
             rel="noopener noreferrer"
             title="Follow us on X"
+            data-analytics-event="contact_click"
+            data-analytics-channel="x"
             className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-900/[0.08] text-slate-900 shadow-sm transition-transform hover:-translate-y-0.5"
           >
             <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4" aria-hidden="true">
@@ -87,6 +99,8 @@ export default function ContactWidget() {
             target="_blank"
             rel="noopener noreferrer"
             title="Follow us on Facebook"
+            data-analytics-event="contact_click"
+            data-analytics-channel="facebook"
             className="flex h-10 w-10 items-center justify-center rounded-full bg-[rgba(24,119,242,0.1)] text-[#1877f2] shadow-sm transition-transform hover:-translate-y-0.5"
           >
             <svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5" aria-hidden="true">
@@ -100,6 +114,12 @@ export default function ContactWidget() {
             <button
               type="button"
               title="WeChat Work Group"
+              onClick={() =>
+                trackEvent("contact_click", {
+                  channel: "wechat",
+                  source: "widget",
+                })
+              }
               className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border-0 bg-[rgba(7,193,96,0.1)] text-[#07c160] shadow-sm transition-transform hover:-translate-y-0.5"
             >
               <svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5" aria-hidden="true">

@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { DM_Mono, Inter, Playfair_Display } from "next/font/google";
+import { Suspense } from "react";
+import Script from "next/script";
 import ContactWidget from "@/components/ContactWidget";
+import AnalyticsTracker from "@/components/AnalyticsTracker";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -20,6 +23,9 @@ const dmMono = DM_Mono({
   weight: ["300", "400", "500"],
   variable: "--font-dm-mono",
 });
+
+const gaMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+const clarityProjectId = process.env.NEXT_PUBLIC_CLARITY_PROJECT_ID;
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://chinatownized.com"),
@@ -64,6 +70,37 @@ export default function RootLayout({
     <html lang="en" className={`${playfair.variable} ${inter.variable} ${dmMono.variable}`}>
       <body className="relative min-h-screen antialiased">
         <div className="relative z-10 flex min-h-screen flex-col">{children}</div>
+        {gaMeasurementId ? (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`}
+              strategy="afterInteractive"
+            />
+            <Script id="ga4-init" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){window.dataLayer.push(arguments);}
+                window.gtag = gtag;
+                gtag('js', new Date());
+                gtag('config', '${gaMeasurementId}', { send_page_view: false });
+              `}
+            </Script>
+          </>
+        ) : null}
+        {clarityProjectId ? (
+          <Script id="clarity-init" strategy="afterInteractive">
+            {`
+              (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+              })(window,document,"clarity","script","${clarityProjectId}");
+            `}
+          </Script>
+        ) : null}
+        <Suspense fallback={null}>
+          <AnalyticsTracker measurementId={gaMeasurementId} />
+        </Suspense>
         <ContactWidget />
       </body>
     </html>
