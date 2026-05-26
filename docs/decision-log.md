@@ -83,6 +83,12 @@ This file records durable product and implementation decisions so Claude and Cod
 - Status: Approved.
 
 - Date: 2026-05-26
+- Decision: Add standard About, Affiliate Disclosure, Privacy, and Contact pages.
+- Reason: The footer needs compliant, reader-facing site pages before pushing more content live.
+- Scope: Site policy and informational pages.
+- Status: Approved.
+
+- Date: 2026-05-26
 - Decision: Add a photo-first Shanghai citywalk variant focused on the Postal Museum, Waibaidu Bridge, and the Bund skyline.
 - Reason: The user selected the photography-first option and wanted the route optimized for visual payoff.
 - Scope: Citywalks editorial variant.

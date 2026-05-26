@@ -52,6 +52,21 @@ export const guides: Guide[] = [
       <h2>Best pairing logic</h2>
       <p>Shanghai Museum pairs naturally with Shanghai History Museum and the Urban Planning Exhibition Center. Pudong works best when you combine MAP with Shanghai Museum East or the Astronomy Museum. The West Bund is best when you want one art-heavy day rather than a checklist.</p>
 
+      <h2>Map & access</h2>
+      <p>Use these addresses to jump straight into Google Maps. If you are on a short trip, stay downtown first and only move to Pudong or the West Bund if you still have time.</p>
+      <ul>
+        <li><strong>Shanghai Museum</strong> - No 201 Renmin Avenue, Huangpu district. <a href="https://www.google.com/maps/search/?api=1&query=Shanghai%20Museum%2C%20No%20201%20Renmin%20Avenue%2C%20Huangpu%20district" target="_blank" rel="noreferrer">Google Maps</a></li>
+        <li><strong>Shanghai History Museum</strong> - No 325 West Nanjing Road, Huangpu district. <a href="https://www.google.com/maps/search/?api=1&query=Shanghai%20History%20Museum%2C%20No%20325%20West%20Nanjing%20Road%2C%20Huangpu%20district" target="_blank" rel="noreferrer">Google Maps</a></li>
+        <li><strong>Shanghai Urban Planning Exhibition Center</strong> - No 100 Renmin Avenue, Huangpu district. <a href="https://www.google.com/maps/search/?api=1&query=Shanghai%20Urban%20Planning%20Exhibition%20Center%2C%20No%20100%20Renmin%20Avenue%2C%20Huangpu%20district" target="_blank" rel="noreferrer">Google Maps</a></li>
+        <li><strong>World Expo Museum</strong> - No 818 Mengzi Road, Huangpu district. <a href="https://www.google.com/maps/search/?api=1&query=World%20Expo%20Museum%2C%20No%20818%20Mengzi%20Road%2C%20Huangpu%20district" target="_blank" rel="noreferrer">Google Maps</a></li>
+        <li><strong>Shanghai Museum East</strong> - No 1952 Century Avenue, Pudong New Area. <a href="https://www.google.com/maps/search/?api=1&query=Shanghai%20Museum%20East%2C%20No%201952%20Century%20Avenue%2C%20Pudong%20New%20Area" target="_blank" rel="noreferrer">Google Maps</a></li>
+        <li><strong>Museum of Art Pudong</strong> - No 2777 Binjiang Avenue, Pudong New Area. <a href="https://www.google.com/maps/search/?api=1&query=Museum%20of%20Art%20Pudong%2C%20No%202777%20Binjiang%20Avenue%2C%20Pudong%20New%20Area" target="_blank" rel="noreferrer">Google Maps</a></li>
+        <li><strong>Power Station of Art</strong> - No 678 Miaojiang Road, Huangpu district. <a href="https://www.google.com/maps/search/?api=1&query=Power%20Station%20of%20Art%2C%20No%20678%20Miaojiang%20Road%2C%20Huangpu%20district" target="_blank" rel="noreferrer">Google Maps</a></li>
+        <li><strong>Shanghai Natural History Museum</strong> - No 510 West Beijing Road, Jing'an district. <a href="https://www.google.com/maps/search/?api=1&query=Shanghai%20Natural%20History%20Museum%2C%20No%20510%20West%20Beijing%20Road%2C%20Jing'an%20district" target="_blank" rel="noreferrer">Google Maps</a></li>
+        <li><strong>Shanghai Astronomy Museum</strong> - No 380 Lingang Avenue, Pudong New Area. <a href="https://www.google.com/maps/search/?api=1&query=Shanghai%20Astronomy%20Museum%2C%20No%20380%20Lingang%20Avenue%2C%20Pudong%20New%20Area" target="_blank" rel="noreferrer">Google Maps</a></li>
+        <li><strong>Long Museum West Bund</strong> - No 3398 Longteng Avenue, Xuhui district. <a href="https://www.google.com/maps/search/?api=1&query=Long%20Museum%20West%20Bund%2C%20No%203398%20Longteng%20Avenue%2C%20Xuhui%20district" target="_blank" rel="noreferrer">Google Maps</a></li>
+      </ul>
+
       <h2>Bottom line</h2>
       <p>If a visitor understands this shortlist, they already understand most of Shanghai’s museum logic. Downtown first, Pudong second, West Bund third. That is the simple version that actually works.</p>
     `,

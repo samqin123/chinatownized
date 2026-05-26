@@ -113,6 +113,13 @@ Use one entry per meaningful commit or push:
 - Commit: pending
 - Push: no
 
+- Date: 2026-05-26
+- Change: Added standard About, Affiliate Disclosure, Privacy, and Contact pages.
+- Reason: The footer needed compliant site pages before pushing more content live.
+- Impact: The site now has standard informational and policy pages linked from the footer.
+- Commit: pending
+- Push: no
+
 ## Usage Rule
 
 - Add a new entry after each meaningful commit or push that changes product behavior, architecture, or documented decisions.

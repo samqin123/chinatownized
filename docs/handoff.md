@@ -21,6 +21,7 @@ Use this file as the short operational summary for the next Claude or Codex sess
 - The first Citywalks route now covers Shanghai Postal Museum, the Bund, Waibaidu Bridge, and White Magnolia Plaza.
 - A photo-first Citywalks variant now exists for users who care more about visual payoff than route density.
 - Shanghai museum coverage now includes a practical top-10 shortlist and a 2026 summer exhibition roadmap.
+- Standard About, Affiliate Disclosure, Privacy, and Contact pages are now in place.
 
 ## Why
 
@@ -39,6 +40,7 @@ Use this file as the short operational summary for the next Claude or Codex sess
 - Keep Citywalks Shanghai-first until the route library has depth.
 - Keep the photo-first variant optimized for light windows and skyline contrast.
 - Keep museum planning content focused on city, province, and transfer convenience.
+- Keep policy pages short, plain, and compliant.
 
 ## What To Do Next
 
