@@ -8,11 +8,12 @@ export default function LeadStory({ guide }: LeadStoryProps) {
     <Link href={`/guides/${guide.category}/${guide.slug}`} className="group block">
       <article className="overflow-hidden card-clip">
         <div className="relative aspect-[16/9] overflow-hidden bg-[var(--color-newsprint-deep)]">
-          <div className="absolute inset-0 flex items-center justify-center bg-[var(--color-newsprint-dark)]">
-            <span className="font-[family-name:var(--font-heading)] text-4xl italic text-[var(--color-ink-faint)] opacity-40">
-              {guide.dateline.split(",")[1]?.trim() || guide.dateline}
-            </span>
-          </div>
+          <img
+            src={guide.image}
+            alt={guide.imageAlt}
+            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-black/5 to-transparent" />
         </div>
         <div className="p-6 md:p-8">
           <p className="dateline mb-2">{guide.dateline}, China —</p>

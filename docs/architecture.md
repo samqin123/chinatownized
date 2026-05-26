@@ -1,8 +1,8 @@
-# Chinatownized 架构设计文档
+# Charming Destinations 架构设计文档
 
 ## 概述
 
-Chinatownized 是一个面向外国旅行者的中国旅行指南网站，采用报纸/杂志风格设计。
+Charming Destinations 是一个面向外国旅行者的中国旅行指南网站，采用报纸/杂志风格设计。
 使用 Next.js 16 App Router 构建，静态生成为主，少量客户端交互。
 
 ## 技术架构

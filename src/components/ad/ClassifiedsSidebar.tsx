@@ -8,7 +8,7 @@ export default function ClassifiedsSidebar() {
             Find hotels across China. Best price guaranteed.
           </p>
           <a
-            href="https://www.booking.com/index.html?aid=CHINATOWNIZED"
+            href="https://www.booking.com/index.html?aid=CHARMINGDESTINATIONS"
             target="_blank"
             rel="nofollow sponsored"
             className="block w-full border border-primary bg-transparent px-4 py-2 text-center font-mono text-xs font-semibold tracking-wider text-primary uppercase hover:bg-primary hover:text-white"
@@ -27,7 +27,7 @@ export default function ClassifiedsSidebar() {
             Book train tickets, hanfu rentals, guided tours on Klook.
           </p>
           <a
-            href="https://www.klook.com/?aid=CHINATOWNIZED"
+            href="https://www.klook.com/?aid=CHARMINGDESTINATIONS"
             target="_blank"
             rel="nofollow sponsored"
             className="block w-full border border-accent bg-transparent px-4 py-2 text-center font-mono text-xs font-semibold tracking-wider text-accent uppercase hover:bg-accent hover:text-white"
@@ -51,7 +51,7 @@ export default function ClassifiedsSidebar() {
         <p className="classifieds-title">FLIGHTS + TRAINS</p>
         <div className="p-4">
           <a
-            href="https://www.trip.com/?allianceid=CHINATOWNIZED"
+            href="https://www.trip.com/?allianceid=CHARMINGDESTINATIONS"
             target="_blank"
             rel="nofollow sponsored"
             className="block w-full border border-secondary bg-transparent px-4 py-2 text-center font-mono text-xs font-semibold tracking-wider text-secondary uppercase hover:bg-secondary hover:text-white"

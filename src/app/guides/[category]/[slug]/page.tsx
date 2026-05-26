@@ -30,12 +30,12 @@ export default async function ArticlePage({ params }: Props) {
   if (!guide) notFound();
 
   const categoryData = getCategory(category);
-  const publishedDate = new Date(guide.publishedAt).toLocaleDateString("en-US", {
+  const publishedDate = new Intl.DateTimeFormat("en-US", {
     year: "numeric",
     month: "long",
     day: "numeric",
-  });
-  const locationTag = guide.dateline.split(",")[1]?.trim() || guide.dateline;
+    timeZone: "UTC",
+  }).format(new Date(`${guide.publishedAt}T00:00:00Z`));
 
   return (
     <>
@@ -43,7 +43,7 @@ export default async function ArticlePage({ params }: Props) {
       <main className="mx-auto max-w-6xl px-4 py-8">
         <p className="dateline mb-4 text-xs">
           <a href="/" className="hover:text-[var(--color-ink)]">
-            Chinatownized
+            Charming Destinations
           </a>{" "}
           &raquo;{" "}
           <a href={`/guides/${category}`} className="hover:text-[var(--color-ink)]">
@@ -54,11 +54,12 @@ export default async function ArticlePage({ params }: Props) {
         <div className="grid gap-10 lg:grid-cols-[1fr_320px]">
           <article>
             <div className="relative mb-8 aspect-video overflow-hidden border border-[var(--color-divider)] bg-[var(--color-newsprint-deep)]">
-              <div className="absolute inset-0 flex items-center justify-center bg-[var(--color-newsprint-dark)]">
-                <span className="font-[family-name:var(--font-heading)] text-5xl italic text-[var(--color-ink-faint)] opacity-30">
-                  {locationTag}
-                </span>
-              </div>
+              <img
+                src={guide.image}
+                alt={guide.imageAlt}
+                className="h-full w-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
             </div>
 
             <p className="dateline mb-2">{guide.dateline}, China</p>
@@ -101,9 +102,16 @@ export default async function ArticlePage({ params }: Props) {
                 </div>
               ) : null}
 
-              <p className="mb-4 italic text-[var(--color-ink-muted)]">
-                Full article content coming soon. This is a placeholder for the complete guide.
-              </p>
+              {guide.body ? (
+                <div
+                  className="article-content"
+                  dangerouslySetInnerHTML={{ __html: guide.body }}
+                />
+              ) : (
+                <p className="mb-4 italic text-[var(--color-ink-muted)]">
+                  Full article content coming soon. This is a placeholder for the complete guide.
+                </p>
+              )}
 
               {guide.faq && guide.faq.length > 0 ? <FaqSection faqs={guide.faq} /> : null}
 

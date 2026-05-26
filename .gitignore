@@ -32,6 +32,21 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+*.env
+*.local
+!.env.example
+
+# local machine / temp artifacts
+.idea/
+.vscode/
+*.log
+*.tmp
+*.swp
+*.swo
+
+# local backups
+*.bak
+*.bak.*
 
 # vercel
 .vercel

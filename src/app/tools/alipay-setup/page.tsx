@@ -6,7 +6,7 @@ export default function AlipaySetupPage() {
     <>
       <Navbar />
       <main className="mx-auto max-w-4xl px-4 py-12">
-        <p className="dateline mb-1">CHINATOWNIZED &raquo; TOOLS</p>
+        <p className="dateline mb-1">CHARMING DESTINATIONS &raquo; TOOLS</p>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl font-bold md:text-4xl">
           Alipay Setup
         </h1>

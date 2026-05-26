@@ -6,10 +6,10 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-4 py-12">
         <div className="mb-8 text-center">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-[var(--color-primary)]">
-            CHINATOWNIZED
+            CHARMING DESTINATIONS
           </h3>
           <p className="mt-1 font-[family-name:var(--font-mono)] text-[0.625rem] tracking-[0.2em] text-[var(--color-ink-muted)] uppercase">
-            The Travel Gazette
+            China travel magazine
           </p>
         </div>
         <hr className="section-divider mb-8" />
@@ -17,6 +17,9 @@ export default function Footer() {
           <div>
             <h4 className="mb-3 font-[family-name:var(--font-mono)] text-[0.625rem] tracking-widest text-[var(--color-ink-muted)] uppercase">Dispatches</h4>
             <ul className="space-y-2 text-sm text-[var(--color-ink-muted)]">
+              <li><Link href="/guides/museums" className="hover:text-[var(--color-ink)]">Museums</Link></li>
+              <li><Link href="/guides/ancient-towns" className="hover:text-[var(--color-ink)]">Ancient Towns</Link></li>
+              <li><Link href="/guides/citywalks" className="hover:text-[var(--color-ink)]">Citywalks</Link></li>
               <li><Link href="/guides/village-vibes" className="hover:text-[var(--color-ink)]">Village Vibes</Link></li>
               <li><Link href="/guides/hanfu-diaries" className="hover:text-[var(--color-ink)]">Hanfu Diaries</Link></li>
               <li><Link href="/guides/cyberpunk-cities" className="hover:text-[var(--color-ink)]">Cyberpunk Cities</Link></li>
@@ -58,7 +61,7 @@ export default function Footer() {
         </div>
         <hr className="section-divider mt-8 mb-6" />
         <p className="text-center font-[family-name:var(--font-mono)] text-[0.625rem] tracking-wider text-[var(--color-ink-faint)]">
-          &copy; 2026 Chinatownized &mdash; All dispatches filed from the road. Somewhere in China.
+          &copy; 2026 Charming Destinations &mdash; All dispatches filed from the road. Somewhere in China.
         </p>
         <p className="mt-1 text-center text-[0.5625rem] text-[var(--color-ink-faint)]">
           This site contains affiliate links. We may earn a commission at no extra cost to you.

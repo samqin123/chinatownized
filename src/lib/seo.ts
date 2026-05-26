@@ -10,7 +10,7 @@ export function generateArticleSchema(guide: Guide, url: string) {
     datePublished: guide.publishedAt,
     dateModified: guide.updatedAt || guide.publishedAt,
     author: { "@type": "Person", name: guide.author.name },
-    publisher: { "@type": "Organization", name: "Chinatownized", url: "https://chinatownized.com" },
+    publisher: { "@type": "Organization", name: "Charming Destinations", url: "https://chinatownized.com" },
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
   };
 }
