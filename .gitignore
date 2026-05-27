@@ -40,6 +40,10 @@ yarn-error.log*
 # local machine / temp artifacts
 .idea/
 .vscode/
+.firecrawl/
+rawdocs/
+2025mkt_rp.md
+docs/2025-中国博物馆文旅市场-国外访客调研.md
 *.log
 *.tmp
 *.swp

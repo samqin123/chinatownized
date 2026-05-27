@@ -129,6 +129,13 @@ Use one entry per meaningful commit or push:
 - Commit: pending
 - Push: no
 
+- Date: 2026-05-27
+- Change: Added `.firecrawl/`, `rawdocs/`, and local raw document artifacts to `.gitignore`.
+- Reason: The user wanted temporary scraping outputs and raw working documents kept out of version control.
+- Impact: Future content-research runs will no longer leave those local artifacts in `git status`.
+- Commit: pending
+- Push: no
+
 ## Usage Rule
 
 - Add a new entry after each meaningful commit or push that changes product behavior, architecture, or documented decisions.
