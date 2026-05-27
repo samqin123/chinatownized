@@ -26,6 +26,7 @@ Use this file as the short operational summary for the next Claude or Codex sess
 - Standard About, Affiliate Disclosure, Privacy, and Contact pages are now in place.
 - A reusable content workflow now exists in `docs/workflow.md` for source download, rewrite, local image fixes, build, and deployment.
 - The startup instructions now explicitly point to `docs/workflow.md` for content publishing tasks.
+- Channel-aware partner windows now render on article sidebars and category pages, with local SVG assets for JD, Ctrip, Air China, China Eastern, Hilton, and Dianping.
 
 ## Why
 
@@ -46,6 +47,7 @@ Use this file as the short operational summary for the next Claude or Codex sess
 - Keep museum planning content focused on city, province, and transfer convenience.
 - Keep policy pages short, plain, and compliant.
 - Keep the hidden-museum rewrite focused on practical visitor value: what the museum teaches, what neighborhood it sits in, and whether it is worth the trip.
+- Keep partner windows native to the editorial layout so they feel like useful travel modules rather than intrusive ads.
 
 ## What To Do Next
 

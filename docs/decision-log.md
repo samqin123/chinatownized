@@ -93,3 +93,9 @@ This file records durable product and implementation decisions so Claude and Cod
 - Reason: The user selected the photography-first option and wanted the route optimized for visual payoff.
 - Scope: Citywalks editorial variant.
 - Status: Approved.
+
+- Date: 2026-05-27
+- Decision: Add channel-aware partner windows using JD, Trip.com/Ctrip, China Eastern, Air China, Hilton, and Dianping.
+- Reason: The user wants ad-like windows that feel native to the content and can support affiliate-style monetization without disrupting the reading flow.
+- Scope: Site monetization and affiliate placement UI.
+- Status: Approved.

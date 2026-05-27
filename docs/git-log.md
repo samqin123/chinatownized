@@ -164,6 +164,13 @@ Use one entry per meaningful commit or push:
 - Commit: pending
 - Push: no
 
+- Date: 2026-05-27
+- Change: Added channel-aware partner windows for JD, Trip.com/Ctrip, China Eastern, Air China, Hilton, and Dianping with local SVG assets.
+- Reason: The user wanted ad-like windows that feel native to the editorial layout and can support affiliate-style monetization.
+- Impact: Article sidebars and category pages now have reusable travel partner modules with click tracking.
+- Commit: pending
+- Push: no
+
 ## Usage Rule
 
 - Add a new entry after each meaningful commit or push that changes product behavior, architecture, or documented decisions.

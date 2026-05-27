@@ -154,6 +154,8 @@ export default function AnalyticsTracker({ measurementId }: Props) {
           link_url: href,
           link_text: (anchor.textContent || anchor.getAttribute("title") || "").trim(),
           channel: anchor.getAttribute("data-analytics-channel") || undefined,
+          partner: anchor.getAttribute("data-analytics-partner") || undefined,
+          placement: anchor.getAttribute("data-analytics-placement") || undefined,
         });
         return;
       }

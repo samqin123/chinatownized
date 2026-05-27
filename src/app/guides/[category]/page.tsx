@@ -3,8 +3,10 @@ import type { Metadata } from "next";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import FeaturedCard from "@/components/home/FeaturedCard";
+import ClassifiedsSidebar from "@/components/ad/ClassifiedsSidebar";
 import { getCategory, categories } from "@/data/categories";
 import { getGuidesByCategory } from "@/data/guides";
+import type { CategorySlug } from "@/types";
 
 type Props = { params: Promise<{ category: string }> };
 
@@ -35,6 +37,9 @@ export default async function CategoryPage({ params }: Props) {
         </h1>
         <p className="mt-3 max-w-2xl text-[var(--color-ink-muted)]">{cat.description}</p>
         <hr className="section-divider my-8" />
+        <div className="mb-10">
+          <ClassifiedsSidebar category={category as CategorySlug} variant="grid" />
+        </div>
         {guides.length > 0 ? (
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {guides.map((g) => (

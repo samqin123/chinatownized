@@ -133,7 +133,7 @@ export default async function ArticlePage({ params }: Props) {
           </article>
 
           <aside className="space-y-6">
-            <ClassifiedsSidebar />
+            <ClassifiedsSidebar category={categoryData?.slug || "museums"} />
           </aside>
         </div>
       </main>
