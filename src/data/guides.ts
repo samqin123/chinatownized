@@ -264,9 +264,8 @@ export const guides: Guide[] = [
     },
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    image:
-      "https://mmbiz.qpic.cn/mmbiz_jpg/iaeic8CysqPhxcLaXhlc1jibibBiargvUwAd2XL78o2aBCWQjdhPBE02yEwLVfg4zWhicS8pUptmIC7L4beZh6ibkE7icNalqwrG1BbCVU383fY2tSU/0?wx_fmt=jpeg",
-    imageAlt: "Cover image from the original Shanghai hidden museums article",
+    image: "/images/shanghai-hidden-museums-cover.jpg",
+    imageAlt: "Shanghai hidden museums cover image with a city memory theme",
     readTime: 12,
     tags: ["shanghai", "museums", "industrial history", "family travel", "hidden museums"],
     body: `
