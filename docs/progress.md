@@ -19,6 +19,7 @@ This file tracks the current state of the project so future Claude and Codex run
 - The Shanghai hidden museums article has now been further tightened into a more travel-magazine style piece for foreign visitors.
 - The public-facing brand has been switched to `Charming Destinations`.
 - A reusable content workflow document has been added to `docs/workflow.md` for source download, rewrite, image handling, build, and publish.
+- The startup instructions in `AGENTS.md` and `CLAUDE.md` now point to `docs/workflow.md` for content conversion and publishing tasks.
 - The homepage lower-card images have been replaced with public online sources for Cun Chao, Luoyang Hanfu, and Chongqing night scenes.
 - Fanjingshan image has been switched to a stable Wikimedia Commons source.
 - The visible navigation order now keeps `Museums` first, `Ancient Towns` second, and `Citywalks` third.

@@ -25,6 +25,7 @@ Use this file as the short operational summary for the next Claude or Codex sess
 - The hidden-museum rewrite has been tightened into a more magazine-like travel piece with stronger opening language and less list feel.
 - Standard About, Affiliate Disclosure, Privacy, and Contact pages are now in place.
 - A reusable content workflow now exists in `docs/workflow.md` for source download, rewrite, local image fixes, build, and deployment.
+- The startup instructions now explicitly point to `docs/workflow.md` for content publishing tasks.
 
 ## Why
 

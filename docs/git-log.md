@@ -157,6 +157,13 @@ Use one entry per meaningful commit or push:
 - Commit: pending
 - Push: no
 
+- Date: 2026-05-27
+- Change: Added `docs/workflow.md` to the startup instructions in `AGENTS.md` and `CLAUDE.md`.
+- Reason: The user asked whether future sessions would automatically load the workflow document and wanted it explicitly referenced in agent startup rules.
+- Impact: New sessions are more likely to load the workflow document early when doing content conversion or publishing tasks.
+- Commit: pending
+- Push: no
+
 ## Usage Rule
 
 - Add a new entry after each meaningful commit or push that changes product behavior, architecture, or documented decisions.
