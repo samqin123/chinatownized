@@ -143,6 +143,13 @@ Use one entry per meaningful commit or push:
 - Commit: pending
 - Push: no
 
+- Date: 2026-05-27
+- Change: Replaced the Shanghai hidden museums in-article WeChat images with local static assets under `public/images/`.
+- Reason: The article body had the same external image-host reliability problem as the hero image.
+- Impact: The hidden museums page now renders all article images from local assets, avoiding hotlink failures.
+- Commit: pending
+- Push: no
+
 ## Usage Rule
 
 - Add a new entry after each meaningful commit or push that changes product behavior, architecture, or documented decisions.

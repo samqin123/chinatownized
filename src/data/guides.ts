@@ -278,7 +278,7 @@ export const guides: Guide[] = [
       <p>The point is not to collect names. The point is to see how Shanghai became modern.</p>
 
       <figure>
-        <img src="https://mmbiz.qpic.cn/mmbiz_jpg/iaeic8CysqPhxH3oCrnq3gRE6R2oOFYqribibrOkQHen5ia95rP1Zsfzk5AP4eMFzCibX7y5J8KTJPaILpsAXdBGKmqX5PBibShvtbStUlsQ4hEPPw/640?wx_fmt=jpeg" alt="Shanghai Fire Museum from the original WeChat article" />
+        <img src="/images/shanghai-hidden-museums-fire.jpg" alt="Shanghai Fire Museum from the original WeChat article" />
       </figure>
 
       <h2>The city as a system</h2>
@@ -289,7 +289,7 @@ export const guides: Guide[] = [
       <p><strong>Shanghai Telecom Museum</strong> is the communication version of the same story. From telegraph-era discipline to the mobile-phone age, it shows how Shanghai moved from manual messaging to modern networks. For overseas visitors, that is a direct way to understand the city's pace of change.</p>
 
       <figure>
-        <img src="https://mmbiz.qpic.cn/mmbiz_jpg/iaeic8CysqPhwD7nhb7poJYjtbCSyQUbJjFYjjclIsZ6NrrWXuF8aQJLZUg6ftMC4kbeWp03ZI73aMjSFTEJupAfrIiaCqiauyRygVJbH2WG1To/640?wx_fmt=jpeg" alt="Shanghai Postal Museum from the original WeChat article" />
+        <img src="/images/shanghai-hidden-museums-postal.jpg" alt="Shanghai Postal Museum from the original WeChat article" />
       </figure>
 
       <h2>Movement, engineering, and rescue</h2>
@@ -304,7 +304,7 @@ export const guides: Guide[] = [
       <p><strong>Shanghai Modern and Contemporary Publishing Museum</strong> is the most family-friendly museum in this group. The children's publishing section is especially good because it frames the story of books, illustration, and reading culture in a way that is easy to grasp even if you do not read Chinese.</p>
 
       <figure>
-        <img src="https://mmbiz.qpic.cn/mmbiz_jpg/iaeic8CysqPhxkA216NTLWe8LiaEJlsc6I8DHHPE1xoWPlEOPNW0BjXicKuWq3pU3TqsFyO0QCvZypY0f8P7fSUCRJBEPYrgZXNXBxIRHbC4AOA/640?wx_fmt=jpeg" alt="Shanghai Symphony Music Museum from the original WeChat article" />
+        <img src="/images/shanghai-hidden-museums-music.jpg" alt="Shanghai Symphony Music Museum from the original WeChat article" />
       </figure>
 
       <h2>Craft, culture, and a softer Shanghai</h2>
