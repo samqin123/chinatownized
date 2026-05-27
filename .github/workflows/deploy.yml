@@ -29,13 +29,6 @@ jobs:
       - name: Install Vercel CLI
         run: npm install -g vercel
 
-      - name: Materialize app env files
-        run: |
-          test -n "$NEXT_PUBLIC_GA_MEASUREMENT_ID"
-          test -n "$NEXT_PUBLIC_CLARITY_PROJECT_ID"
-          printf 'NEXT_PUBLIC_GA_MEASUREMENT_ID=%s\nNEXT_PUBLIC_CLARITY_PROJECT_ID=%s\n' "$NEXT_PUBLIC_GA_MEASUREMENT_ID" "$NEXT_PUBLIC_CLARITY_PROJECT_ID" > .env.production.local
-          cp .env.production.local .env.preview.local
-
       - name: Pull Vercel Environment (Production)
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
@@ -46,11 +39,17 @@ jobs:
 
       - name: Build (Production)
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+        run: >
+          vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+          --build-env NEXT_PUBLIC_GA_MEASUREMENT_ID=${{ secrets.NEXT_PUBLIC_GA_MEASUREMENT_ID }}
+          --build-env NEXT_PUBLIC_CLARITY_PROJECT_ID=${{ secrets.NEXT_PUBLIC_CLARITY_PROJECT_ID }}
 
       - name: Build (Preview)
         if: github.event_name == 'pull_request'
-        run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
+        run: >
+          vercel build --token=${{ secrets.VERCEL_TOKEN }}
+          --build-env NEXT_PUBLIC_GA_MEASUREMENT_ID=${{ secrets.NEXT_PUBLIC_GA_MEASUREMENT_ID }}
+          --build-env NEXT_PUBLIC_CLARITY_PROJECT_ID=${{ secrets.NEXT_PUBLIC_CLARITY_PROJECT_ID }}
 
       - name: Deploy to Production
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'

@@ -23,6 +23,11 @@ export default function PrivacyPage() {
           intend to collect more personal data than necessary.
         </p>
         <p className="mt-4 text-[var(--color-ink-muted)] leading-relaxed">
+          When a visitor spends enough time reading a guide, we may create a broad interest tag
+          such as museums or citywalks to understand content preference at an aggregate level.
+          We do not use this site to collect sensitive personal profile data.
+        </p>
+        <p className="mt-4 text-[var(--color-ink-muted)] leading-relaxed">
           If you subscribe or contact us, your information will only be used for the purpose you
           provided it. You can ask us to update or remove your contact information by reaching out
           through the Contact page.

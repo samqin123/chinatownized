@@ -251,6 +251,162 @@ export const guides: Guide[] = [
     `,
   },
   {
+    slug: "shanghai-hidden-museums-memory-guide",
+    title: "Shanghai's Hidden Museums: 16 Small Places That Explain How the City Really Works",
+    excerpt:
+      "Shanghai is usually sold through the Bund and a few blockbuster museums. But the city is easier to understand through the smaller places that explain how it protects, moves, prints, stocks, and communicates.",
+    dateline: "SHANGHAI",
+    category: "museums",
+    author: {
+      name: "Marcus Chen",
+      avatar: "/authors/marcus.jpg",
+      bio: "Beijing-based travel writer since 2019. Writes museum stories for people who want the practical version, not the brochure version.",
+    },
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    image:
+      "https://mmbiz.qpic.cn/mmbiz_jpg/iaeic8CysqPhxcLaXhlc1jibibBiargvUwAd2XL78o2aBCWQjdhPBE02yEwLVfg4zWhicS8pUptmIC7L4beZh6ibkE7icNalqwrG1BbCVU383fY2tSU/0?wx_fmt=jpeg",
+    imageAlt: "Cover image from the original Shanghai hidden museums article",
+    readTime: 12,
+    tags: ["shanghai", "museums", "industrial history", "family travel", "hidden museums"],
+    body: `
+      <p>Most travelers meet Shanghai through the Bund, a headline museum, or a shopping street. That version is real, but it is incomplete. The city is easier to understand through the smaller places that explain how it protects itself, moves people, prints books, sends messages, and keeps the lights on.</p>
+
+      <p>That is why Shanghai's hidden museums matter. Many are inexpensive or free, several are easier to visit than people expect, and almost all of them reveal a different layer of the city. Some are perfect for families, some are better for architecture lovers, and some simply explain Shanghai more clearly than a famous landmark ever could.</p>
+
+      <h2>How to read the city through museums</h2>
+      <p>Do not try to do all 16 in one run. That turns a good idea into a transit problem. Group them by neighborhood and theme instead: downtown for postal, banking, securities, and telecom; Xuhui for weather, music, public security, and traditional medicine; Yangpu for water and rescue; and the far-west industrial museums when you want a bigger half-day trip.</p>
+      <p>The point is not to collect names. The point is to see how Shanghai became modern.</p>
+
+      <figure>
+        <img src="https://mmbiz.qpic.cn/mmbiz_jpg/iaeic8CysqPhxH3oCrnq3gRE6R2oOFYqribibrOkQHen5ia95rP1Zsfzk5AP4eMFzCibX7y5J8KTJPaILpsAXdBGKmqX5PBibShvtbStUlsQ4hEPPw/640?wx_fmt=jpeg" alt="Shanghai Fire Museum from the original WeChat article" />
+      </figure>
+
+      <h2>The city as a system</h2>
+      <p><strong>Shanghai Fire Museum</strong> is one of the easiest entry points because it shows how Shanghai learned to protect itself while modernizing. The old ladders, pumps, and fire equipment are simple to grasp, which makes the museum approachable for first-time visitors and children alike.</p>
+      <p><strong>Shanghai Postal Museum</strong> is the clearest reminder that Shanghai has always been a city of routes. The building alone is worth the trip, but the real value is the long view from postal relay to modern communication. If you want one museum that helps foreign readers understand the city's historical links to trade and exchange, this is one of the best.</p>
+      <p><strong>Shanghai Meteorological Museum</strong> turns weather into civic history. It sits inside the old Xujiahui observatory, so the building already carries weight. The displays on early instruments, handwritten observation records, and the city's weather-signaling history make it a surprisingly strong stop.</p>
+      <p><strong>Shanghai Waterworks Science Museum</strong> is a good example of why these smaller museums work. It explains how Shanghai built a modern water system and why that mattered for a rapidly growing city. The story sounds technical, but the museum makes it feel concrete.</p>
+      <p><strong>Shanghai Telecom Museum</strong> is the communication version of the same story. From telegraph-era discipline to the mobile-phone age, it shows how Shanghai moved from manual messaging to modern networks. For overseas visitors, that is a direct way to understand the city's pace of change.</p>
+
+      <figure>
+        <img src="https://mmbiz.qpic.cn/mmbiz_jpg/iaeic8CysqPhwD7nhb7poJYjtbCSyQUbJjFYjjclIsZ6NrrWXuF8aQJLZUg6ftMC4kbeWp03ZI73aMjSFTEJupAfrIiaCqiauyRygVJbH2WG1To/640?wx_fmt=jpeg" alt="Shanghai Postal Museum from the original WeChat article" />
+      </figure>
+
+      <h2>Movement, engineering, and rescue</h2>
+      <p><strong>Shanghai Metro Museum</strong> is currently closed for renovation, but it still deserves a mention because it captures the engineering ambition behind one of the world's busiest metro systems. When it reopens, it will be one of the most useful deep-dive transport museums in the city.</p>
+      <p><strong>Shanghai Auto Museum</strong> in Jiading is the place for people who like machines, design, and industrial history. It is large, it has a lot of material, and it gives you a broader view of how the automobile changed not just travel, but modern urban life itself.</p>
+      <p><strong>China Rescue Exhibition Hall</strong> is one of the more unexpected entries on the list. It documents rescue and salvage work in a way that is serious and memorable. If you like engineering stories with a real-world edge, this museum stands out.</p>
+
+      <h2>Money, order, and the public city</h2>
+      <p><strong>Shanghai-Hong Kong Banking History Exhibition Hall</strong> lets you step into a bank building that feels much grander than its practical function. The old vault, the art-deco interior, and the sense that you are inside a working financial landmark make it one of the city's more photogenic museum stops.</p>
+      <p><strong>China Securities Museum</strong> is useful because it explains how modern Chinese finance took shape in Shanghai. The museum is more informative than dramatic, but that is exactly why it matters. Shanghai's financial identity is easier to understand once you see where the market actually started.</p>
+      <p><strong>Shanghai Public Security Museum</strong> is a more mixed experience, but it is still a serious city museum. It covers policing, public security, and some of the harder stories in urban history. For visitors who want to understand Shanghai as a real working city, that makes it relevant.</p>
+      <p><strong>Shanghai Modern and Contemporary Publishing Museum</strong> is the most family-friendly museum in this group. The children's publishing section is especially good because it frames the story of books, illustration, and reading culture in a way that is easy to grasp even if you do not read Chinese.</p>
+
+      <figure>
+        <img src="https://mmbiz.qpic.cn/mmbiz_jpg/iaeic8CysqPhxkA216NTLWe8LiaEJlsc6I8DHHPE1xoWPlEOPNW0BjXicKuWq3pU3TqsFyO0QCvZypY0f8P7fSUCRJBEPYrgZXNXBxIRHbC4AOA/640?wx_fmt=jpeg" alt="Shanghai Symphony Music Museum from the original WeChat article" />
+      </figure>
+
+      <h2>Craft, culture, and a softer Shanghai</h2>
+      <p><strong>Shanghai Glass Museum</strong> is one of the more visually playful choices on the list. It mixes industrial history, art, and craft, which makes it good for visitors who want a museum that feels less textbook and more experiential.</p>
+      <p><strong>Shanghai Textile Museum</strong> tells the story of Shanghai as a manufacturing city before it became a service and consumption city. That shift is important. Without the textile industry, Shanghai's rise would make much less sense.</p>
+      <p><strong>Shanghai Symphony Music Museum</strong> is a quiet highlight because the building itself is part of the experience. The old garden-house setting gives the museum more atmosphere than many bigger institutions, and the music history is easy to follow.</p>
+      <p><strong>Shanghai Traditional Chinese Medicine Museum</strong> is currently closed for renovation, but it remains one of the most interesting ways to understand the city through health, herbs, and medical history. When it reopens, it will again be one of the strongest specialty museums in Shanghai.</p>
+
+      <h2>A practical day plan</h2>
+      <p>If you only want a few stops, do not overthink it. For a downtown day, pair the Postal Museum with the Banking History Exhibition Hall and the Securities Museum. For a more infrastructure-heavy day, group the Fire Museum, the Telecom Museum, and the Waterworks Museum. If you want a culture-and-craft block, do Glass, Textile, and Symphony in one slower route.</p>
+      <p>The best version of this list is not the one that checks off the most museums. It is the one that makes Shanghai feel legible.</p>
+
+      <h2>At a glance</h2>
+      <p>Hours and access can change, so treat the details below as a planning guide and confirm before you go.</p>
+
+      <ul>
+        <li><strong>Shanghai Fire Museum</strong> - 229 Zhongshan West Road, Changning District. 9:30 am to 4:30 pm, last entry 4:00 pm, closed Monday.</li>
+        <li><strong>Shanghai Glass Museum</strong> - 685 Changjiang West Road, Baoshan District. 10:00 am to 5:00 pm, last entry 4:30 pm, closed Monday. Paid admission.</li>
+        <li><strong>Shanghai Metro Museum</strong> - 1779 Wuzhong Road, Minhang District. Currently closed for renovation.</li>
+        <li><strong>Shanghai Auto Museum</strong> - 7565 Boyuan Road, Anting Town, Jiading District. 9:30 am to 4:30 pm, last entry 4:00 pm, closed Monday.</li>
+        <li><strong>Shanghai Public Security Museum</strong> - 518 Ruijin South Road, Xuhui District. 9:00 am to 4:30 pm, last entry 4:00 pm, closed Monday.</li>
+        <li><strong>Shanghai-Hong Kong Banking History Exhibition Hall</strong> - 299 Sichuan Middle Road, Huangpu District. Tuesday, Thursday, and Saturday, 9:30 am to 4:00 pm.</li>
+        <li><strong>Shanghai Postal Museum</strong> - 258 Beisuzhou Road on Wednesday, Thursday, and Saturday; 395 Tiantong Road on Sunday. 9:00 am to 5:00 pm, last entry 4:00 pm.</li>
+        <li><strong>Shanghai Meteorological Museum</strong> - 166 Puxi Road, Xuhui District. Entry by appointment, with short guided time slots; closed Monday.</li>
+        <li><strong>Shanghai Textile Museum</strong> - 128-150 Macau Road, Putuo District. 9:30 am to 4:00 pm, last entry 3:30 pm, closed Monday.</li>
+        <li><strong>Shanghai Modern and Contemporary Publishing Museum</strong> - 3678 Zhoujiazui Road, Yangpu District. 9:00 am to 5:00 pm, last entry 4:00 pm, closed Monday.</li>
+        <li><strong>China Rescue Exhibition Hall</strong> - 1426 Yangshupu Road, Yangpu District. Open Tuesday, Thursday, and Saturday, 9:00 am to 4:00 pm.</li>
+        <li><strong>Shanghai Waterworks Science Museum</strong> - 830 Yangshupu Road, Yangpu District. Tuesday only, with morning and afternoon sessions by appointment.</li>
+        <li><strong>Shanghai Traditional Chinese Medicine Museum</strong> - 1200 Cailun Road, Pudong. Currently closed for renovation.</li>
+        <li><strong>China Securities Museum</strong> - 15 Huangpu Road, Hongkou District. 9:30 am to 4:00 pm, last entry 3:30 pm, closed Monday.</li>
+        <li><strong>Shanghai Telecom Museum</strong> - 34 Yan'an East Road, Huangpu District. Weekend only for individual visitors; weekdays by team appointment.</li>
+        <li><strong>Shanghai Symphony Music Museum</strong> - 3 Baoqing Road, Xuhui District. 9:30 am to 4:30 pm, last entry 4:00 pm, closed Sunday and Monday.</li>
+      </ul>
+
+      <h2>Bottom line</h2>
+      <p>Shanghai's hidden museums are not hidden because they are minor. They are hidden because they are practical, specialized, and easy to overlook if you only look for blockbuster attractions. That is exactly why they are worth visiting. They explain the city through systems, not slogans.</p>
+    `,
+  },
+  {
+    slug: "wukang-anfu-shanghai-citywalk",
+    title: "Wukang Road to Anfu Road: Shanghai's Best Citywalk for Browsing, Coffee, and a Late Beer",
+    excerpt:
+      "If you want one Shanghai afternoon that feels local, walk the Wukang Road and Anfu Road block, browse Duozhuayu, pause for coffee, and end with a drink at street level.",
+    dateline: "SHANGHAI",
+    category: "citywalks",
+    author: {
+      name: "Daniel Wu",
+      avatar: "/authors/daniel.jpg",
+      bio: "Shanghai-native weekend traveler with a practical eye for neighborhoods, easy routes, and places that work for first-time visitors.",
+    },
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/390%20Wukang%20Rd%20(20191114162236).jpg",
+    imageAlt:
+      "A tree-lined street scene on Wukang Road in Shanghai's former French Concession",
+    readTime: 9,
+    tags: ["shanghai", "citywalk", "wukang road", "anfu road", "coffee", "beer", "duozhuayu"],
+    body: `
+      <p>If you want one Shanghai walk that feels like the city people actually use, not just the city people photograph, start on Wukang Road and let the route drift toward Anfu Road. This is a slow neighborhood walk, but it is not a boring one. The point is to show how Shanghai's style economy works in real life: second-hand retail, small cafés, design stores, and a final drink when the afternoon turns into evening.</p>
+
+      <h2>Why this route works</h2>
+      <p>Foreign visitors usually think of Shanghai in skyline terms. That is fine, but it misses one of the city's most useful travel truths: Shanghai is often best understood at street level, where you can see how residents actually spend time. The Wukang-Anfu block gives you that version of the city without making you leave the central core.</p>
+      <p>This is also a route with a natural pace. You do not need to rush. You browse, you sit down, you walk another block, and then you decide whether the day ends with coffee or a beer. That is a better Shanghai experience than trying to force three landmarks into the same afternoon.</p>
+
+      <figure>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/390%20Wukang%20Rd%20(20191114162236).jpg" alt="Tree-lined Wukang Road in Shanghai's former French Concession" />
+      </figure>
+
+      <h2>Start on Wukang Road</h2>
+      <p>Wukang Road is the right starting point because it immediately gives you the visual code of the former French Concession: plane trees, historic façades, and a street scale that feels calm even when the area is busy. You do not start here because of one single attraction. You start here because the street itself is the attraction.</p>
+      <p>If you want to understand why so many foreign visitors like this part of Shanghai, it is because the neighborhood feels walkable without feeling staged. The buildings are interesting, but the street life is even more interesting.</p>
+
+      <h2>First stop: Duozhuayu on Anfu Road</h2>
+      <p>The first stop worth building around is Duozhuayu. That matters because it is not just a shop; it is a compact version of a Shanghai habit that overseas visitors often notice immediately: reuse, curation, and the idea that old things can be recirculated instead of thrown away.</p>
+      <p>For foreign readers, this is useful because it gives the walk a point of view. You are not just browsing retail. You are seeing one of the ways Shanghai turns consumption into culture. If someone wants to buy a book, a small object, or a design-forward souvenir, this is an easy place to slow down and look.</p>
+
+      <h2>Coffee break, not coffee duty</h2>
+      <p>The best coffee stop on this route should feel like a pause, not a task. That is why places like Sunflour work so well here: it is easy, familiar, and low-friction, which is exactly what you want halfway through a citywalk. You do not need a dramatic specialty-coffee ritual on every block. Sometimes the right answer is simply a good pastry, a decent coffee, and a chair.</p>
+      <p>If you prefer a more old-Shanghai mood, The Cottage Bar at 439 Wukang Road is a strong option because it works as both a coffee stop and a bar. It gives the route a useful hinge point: daytime browsing can become an early drink without changing neighborhoods or overthinking the plan.</p>
+
+      <h2>What to look for between stops</h2>
+      <p>The value of this route is in the in-between. The side streets around Anfu Road are where you notice the details that make Shanghai feel current: small design shops, boutique windows, fashion-heavy foot traffic, and cafés where people actually sit long enough to people-watch. That is the part of the route most travelers remember after they leave.</p>
+      <p>It is also the reason this block feels different from a standard shopping street. You are not here to buy at speed. You are here to browse, compare, and decide whether the neighborhood itself is the purchase.</p>
+
+      <h2>Finish with a beer, not a taxi</h2>
+      <p>If you still have energy at the end, finish with a beer rather than calling the day too early. The official Shanghai bar guide points to 624Changle on Changle Road as a casual craft-beer stop, and that is exactly the kind of ending this route wants: easy, unpretentious, and close enough to the walk that it feels like part of the same day.</p>
+      <p>The key is not the brand name. It is the mood. You want a street-side seat, not a formal night out. This route works best when the last stop feels like a neighborhood habit rather than a scheduled event.</p>
+
+      <h2>What foreign visitors take away</h2>
+      <p>The most valuable thing on this route is not a landmark photo. It is a clearer sense of what Shanghai feels like beyond the postcard version. Visitors get a living neighborhood, a second-hand shopping culture, coffee that is part of the rhythm of the street, and a bar scene that feels social without becoming loud.</p>
+      <p>That is a useful lesson because Shanghai is often marketed as a skyline city, but its deeper appeal is this kind of everyday urban texture. If a traveler remembers the city as a place where old buildings, reuse stores, cafés, and small bars all sit inside the same walk, the route has done its job.</p>
+
+      <h2>Best way to use this route</h2>
+      <p>Come in the late morning or after lunch. If you arrive too early, you will rush the browsing stops. If you arrive too late, you will miss the easy coffee window and jump straight to the drink finish. The sweet spot is the middle of the day moving into evening, when the neighborhood naturally changes pace.</p>
+      <p>If you only want one Shanghai citywalk that feels relaxed, local, and easy to explain to friends back home, this is one of the strongest options on the site right now.</p>
+
+      <h2>Bottom line</h2>
+      <p>Wukang Road to Anfu Road is not a checklist route. It is a neighborhood route with a point of view. You get Shanghai's tree-lined heritage streets, a meaningful reuse-store stop, a coffee break that feels natural, and a clean beer finish without leaving the area. For foreign visitors who want the city in one afternoon, that is exactly the right balance.</p>
+    `,
+  },
+  {
     slug: "zhujiajiao-ancient-town",
     title: "Zhujiajiao Ancient Town: Shanghai's Most Overlooked Water Town Still Works Because It Feels Real",
     excerpt:

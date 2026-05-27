@@ -1,6 +1,7 @@
 "use client";
 
 export type AnalyticsParams = Record<string, string | number | boolean | undefined>;
+export type UserProperties = Record<string, string | undefined>;
 
 type GtagFn = (...args: unknown[]) => void;
 
@@ -21,6 +22,18 @@ export function trackEvent(eventName: string, params: AnalyticsParams = {}) {
     };
   }
   window.gtag("event", eventName, params);
+}
+
+export function setUserProperties(properties: UserProperties) {
+  if (typeof window === "undefined") return;
+  if (typeof window.gtag !== "function") {
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function gtagStub(...args: unknown[]) {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push(args);
+    };
+  }
+  window.gtag("set", "user_properties", properties);
 }
 
 export function isExternalUrl(href: string) {

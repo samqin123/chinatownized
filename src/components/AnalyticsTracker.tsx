@@ -2,11 +2,47 @@
 
 import { useEffect } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
-import { isExternalUrl, trackEvent } from "@/lib/analytics";
+import { isExternalUrl, setUserProperties, trackEvent } from "@/lib/analytics";
 
 type Props = {
   measurementId?: string;
 };
+
+const ENGAGED_THRESHOLD_MS = 45_000;
+const INTEREST_STORE_KEY = "charming-destinations.interest-categories";
+
+function getInterestCategory(pathname: string) {
+  const parts = pathname.split("/").filter(Boolean);
+  if (parts[0] !== "guides") return undefined;
+  return parts[1];
+}
+
+function getCategoryLabel(pathname: string) {
+  const category = getInterestCategory(pathname);
+  if (!category) return undefined;
+  return category.replaceAll("-", " ");
+}
+
+function readInterestCategories() {
+  if (typeof window === "undefined") return [];
+  try {
+    const raw = window.localStorage.getItem(INTEREST_STORE_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed.filter((item) => typeof item === "string") : [];
+  } catch {
+    return [];
+  }
+}
+
+function writeInterestCategories(categories: string[]) {
+  if (typeof window === "undefined") return;
+  try {
+    window.localStorage.setItem(INTEREST_STORE_KEY, JSON.stringify(categories));
+  } catch {
+    // Ignore storage failures.
+  }
+}
 
 export default function AnalyticsTracker({ measurementId }: Props) {
   const pathname = usePathname();
@@ -29,6 +65,75 @@ export default function AnalyticsTracker({ measurementId }: Props) {
       });
     }
   }, [measurementId, pathname, searchParams]);
+
+  useEffect(() => {
+    if (!measurementId) return;
+
+    const category = getInterestCategory(pathname);
+    if (!category) return;
+
+    let activeMs = 0;
+    let startedAt = document.visibilityState === "visible" ? performance.now() : 0;
+    let done = false;
+    let timer: number | undefined;
+
+    const applyProfile = () => {
+      if (done) return;
+      done = true;
+
+      const current = new Set(readInterestCategories());
+      current.add(category);
+      const merged = Array.from(current).sort();
+      writeInterestCategories(merged);
+
+      setUserProperties({
+        visitor_type: "engaged_reader",
+        interest_categories: merged.join(","),
+        latest_interest_category: getCategoryLabel(pathname),
+        dwell_bucket: "45s_plus",
+      });
+
+      trackEvent("engaged_read", {
+        content_category: category,
+        page_path: pathname,
+        dwell_ms: ENGAGED_THRESHOLD_MS,
+      });
+    };
+
+    const schedule = () => {
+      if (done) return;
+      const remaining = Math.max(ENGAGED_THRESHOLD_MS - activeMs, 0);
+      if (remaining === 0) {
+        applyProfile();
+        return;
+      }
+      window.clearTimeout(timer);
+      timer = window.setTimeout(applyProfile, remaining);
+    };
+
+    const onVisibilityChange = () => {
+      if (done) return;
+      if (document.visibilityState === "visible") {
+        startedAt = performance.now();
+        schedule();
+      } else if (startedAt > 0) {
+        activeMs += performance.now() - startedAt;
+        startedAt = 0;
+        window.clearTimeout(timer);
+      }
+    };
+
+    document.addEventListener("visibilitychange", onVisibilityChange);
+    schedule();
+
+    return () => {
+      document.removeEventListener("visibilitychange", onVisibilityChange);
+      window.clearTimeout(timer);
+      if (!done && startedAt > 0) {
+        activeMs += performance.now() - startedAt;
+      }
+    };
+  }, [measurementId, pathname]);
 
   useEffect(() => {
     if (!measurementId) return;

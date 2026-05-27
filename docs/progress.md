@@ -15,6 +15,8 @@ This file tracks the current state of the project so future Claude and Codex run
 - The Shanghai Museum Ancient Americas exhibition article has been added as the current featured museum story.
 - The reusable virtual author pool has been documented in `docs/author-pool.md`.
 - The exhibition article framing has been revised to emphasize what overseas readers take away from the show and how it helps them read Chinese history comparatively.
+- The Shanghai hidden museums article has been rewritten in English as a practical foreign-reader guide, with original WeChat images reused in the draft.
+- The Shanghai hidden museums article has now been further tightened into a more travel-magazine style piece for foreign visitors.
 - The public-facing brand has been switched to `Charming Destinations`.
 - The homepage lower-card images have been replaced with public online sources for Cun Chao, Luoyang Hanfu, and Chongqing night scenes.
 - Fanjingshan image has been switched to a stable Wikimedia Commons source.

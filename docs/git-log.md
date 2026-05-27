@@ -120,6 +120,15 @@ Use one entry per meaningful commit or push:
 - Commit: pending
 - Push: no
 
+## 2026-05-27
+
+- Date: 2026-05-27
+- Change: Rewrote the Shanghai hidden museums WeChat article into a publication-ready English guide and added a new Shanghai Wukang Road to Anfu Road citywalk article.
+- Reason: The user wanted a publishable foreign-reader story built from the source article, plus a Shanghai route with Duozhuayu, coffee, and a street-side beer stop.
+- Impact: The Museums and Citywalks channels now have more magazine-like Shanghai content that can be published and reused for lead generation.
+- Commit: pending
+- Push: no
+
 ## Usage Rule
 
 - Add a new entry after each meaningful commit or push that changes product behavior, architecture, or documented decisions.
