@@ -53,6 +53,7 @@ This file tracks the current state of the project so future Claude and Codex run
 - Keep the new museum roadmap focused on travel utility: city, province, and transfer sequence.
 - Keep the policy pages concise and reader-friendly while staying compliant.
 - Channel-aware partner windows now exist for article sidebars and category pages, using local SVG assets for JD, Ctrip, Air China, China Eastern, Hilton, and Dianping.
+- Category pages now keep the main content as the dominant column and move partner windows into a right-hand sidebar, matching the article-page layout.
 
 ## Next
 

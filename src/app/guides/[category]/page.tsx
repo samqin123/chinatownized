@@ -37,20 +37,25 @@ export default async function CategoryPage({ params }: Props) {
         </h1>
         <p className="mt-3 max-w-2xl text-[var(--color-ink-muted)]">{cat.description}</p>
         <hr className="section-divider my-8" />
-        <div className="mb-10">
-          <ClassifiedsSidebar category={category as CategorySlug} variant="grid" />
+        <div className="grid gap-10 lg:grid-cols-[1fr_320px]">
+          <section>
+            {guides.length > 0 ? (
+              <div className="grid gap-6 sm:grid-cols-2">
+                {guides.map((g) => (
+                  <FeaturedCard key={g.slug} guide={g} />
+                ))}
+              </div>
+            ) : (
+              <p className="py-16 text-center italic text-[var(--color-ink-muted)]">
+                No dispatches filed yet. Check back soon.
+              </p>
+            )}
+          </section>
+
+          <aside className="space-y-6 lg:sticky lg:top-24 lg:self-start">
+            <ClassifiedsSidebar category={category as CategorySlug} />
+          </aside>
         </div>
-        {guides.length > 0 ? (
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {guides.map((g) => (
-              <FeaturedCard key={g.slug} guide={g} />
-            ))}
-          </div>
-        ) : (
-          <p className="py-16 text-center italic text-[var(--color-ink-muted)]">
-            No dispatches filed yet. Check back soon.
-          </p>
-        )}
       </main>
       <Footer />
     </>

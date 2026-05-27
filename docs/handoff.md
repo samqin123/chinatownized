@@ -27,6 +27,7 @@ Use this file as the short operational summary for the next Claude or Codex sess
 - A reusable content workflow now exists in `docs/workflow.md` for source download, rewrite, local image fixes, build, and deployment.
 - The startup instructions now explicitly point to `docs/workflow.md` for content publishing tasks.
 - Channel-aware partner windows now render on article sidebars and category pages, with local SVG assets for JD, Ctrip, Air China, China Eastern, Hilton, and Dianping.
+- Category pages now keep the partner window in the right sidebar so the main content remains the primary reading area.
 
 ## Why
 
@@ -48,6 +49,7 @@ Use this file as the short operational summary for the next Claude or Codex sess
 - Keep policy pages short, plain, and compliant.
 - Keep the hidden-museum rewrite focused on practical visitor value: what the museum teaches, what neighborhood it sits in, and whether it is worth the trip.
 - Keep partner windows native to the editorial layout so they feel like useful travel modules rather than intrusive ads.
+- Keep category-page monetization in the right sidebar so the article grid remains the dominant surface.
 
 ## What To Do Next
 

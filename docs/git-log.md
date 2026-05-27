@@ -171,6 +171,13 @@ Use one entry per meaningful commit or push:
 - Commit: pending
 - Push: no
 
+- Date: 2026-05-27
+- Change: Moved category-page partner windows to the right sidebar so the main category content keeps visual priority.
+- Reason: The user clarified that the category page should mirror the article-page layout and preserve most of the width for editorial content.
+- Impact: Category pages now keep monetization secondary and the article grid primary.
+- Commit: pending
+- Push: no
+
 ## Usage Rule
 
 - Add a new entry after each meaningful commit or push that changes product behavior, architecture, or documented decisions.
