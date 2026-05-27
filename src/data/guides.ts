@@ -1135,6 +1135,135 @@ export const guides: Guide[] = [
       <p>Shanghai Urban Planning Exhibition Hall is the best “architecture museum” recommendation for readers who want to understand the city rather than just look at a building. It works because it is practical, central, and visually easy to grasp.</p>
     `,
   },
+  {
+    slug: "shanghai-summer-2026-museum-blockbusters",
+    title: "Shanghai's 2026 Summer Museum Blockbusters: Ancient Americas, Qin Dynasty, and Imperial Treasures",
+    excerpt:
+      "From the largest ancient American civilizations exhibition ever mounted to freshly unearthed Qin Dynasty relics and Forbidden City imperial attire — Shanghai's summer 2026 museum season is its most ambitious yet.",
+    dateline: "SHANGHAI",
+    category: "museums",
+    author: {
+      name: "Ava Turner",
+      avatar: "/authors/ava.jpg",
+      bio: "Museum and exhibition writer focusing on art fairs, special exhibitions, and ticketing behavior across China.",
+    },
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    image: "/images/museum-summer-2026/cover.jpg",
+    imageAlt: "A visitor at a Shanghai museum exhibition",
+    readTime: 7,
+    featured: true,
+    tags: ["shanghai", "museums", "exhibitions", "summer-2026", "americas", "qin-dynasty", "forbidden-city"],
+    body: `<p>Shanghai's museum summer is about to hit a new gear. Following the record-shattering <em>On Top of the Pyramid: The Civilization of Ancient Egypt</em> — 2.77 million visitors, ¥760 million in ticket revenue, over ¥35 billion in city-wide economic spillover — the city is not slowing down. It is doubling down.</p>
+
+<h2>The Headliners</h2>
+
+<h3>World Tree Summit: Ancient Civilizations of the Americas</h3>
+<p><strong>Shanghai Museum (People's Square) | July 9, 2026 – November 14, 2027 | ¥148</strong></p>
+
+<figure>
+<img src="/images/museum-summer-2026/world-tree.jpg" alt="World Tree Summit exhibition" />
+</figure>
+
+<p>This is <strong>the largest, highest-level, and most comprehensive exhibition of ancient American civilizations ever mounted anywhere in the world</strong>. A staggering 1,129 sets of artifacts — nearly 3,000 individual objects — trace the grand arc of pre-Columbian Central and South America: Olmec colossal heads, Inca gold, Maya codices, Aztec ritual vessels. This is the kind of exhibition you book flights for.</p>
+
+<p>It is also the anchor for Shanghai's entire summer museum strategy. The newly launched "Shanghai Pass" — a city-wide cultural ticket covering 150+ venues — uses "World Tree Summit" as its headline draw.</p>
+<h3>Reviving China: Qin — The Road to Unification</h3>
+<p><strong>Shanghai Museum East | June 10 – September 7, 2026 | FREE</strong></p>
+
+<figure>
+<img src="/images/museum-summer-2026/qin-dynasty.jpg" alt="Qin Dynasty exhibition" />
+</figure>
+
+<p>Before the Terracotta Warriors, before the Great Wall — before China was even <em>China</em> — there was Qin, a minor western vassal that rose to unify the warring kingdoms. Over 200 sets of cultural relics, many excavated in the past few years from Gansu and Shaanxi provinces, trace that astonishing trajectory.</p>
+
+<h3>National Splendor: Imperial Attire from the Forbidden City</h3>
+<p><strong>Shanghai World Expo Museum | July 7 – October 7, 2026 | ¥88</strong></p>
+
+<figure>
+<img src="/images/museum-summer-2026/imperial-attire.jpg" alt="Imperial Attire exhibition" />
+</figure>
+
+<p>103 pieces of Qing Dynasty imperial garments, textiles, jewelry, and accessories — many Class-1 national treasures — make the trip south from the Palace Museum in Beijing. Dragon robes, phoenix coronets, gold-thread embroidery. If you have ever been mesmerized by historical costume dramas, here is the real thing, in the flesh, under museum lighting.</p>
+
+<h3>Infinite Universe: Science and Art Fusion</h3>
+<p><strong>Shanghai Astronomy Museum | May 23 – August 31, 2026 | ¥30 (museum entry)</strong></p>
+
+<p>Set inside the world's largest planetarium, this show collects winners of the prestigious Tsung-Dao Lee Science and Art Competition. Painting, sculpture, digital media, and installation — all orbiting the theme of cosmic scale. The venue alone is worth the trip to Lingang.</p>
+
+<h2>Free Exhibitions Worth Your Time</h2>
+
+<h3>Jewels of Brilliance: Qianlong Emperor Relics</h3>
+<p><strong>Fengxian Museum | Until November 18, 2026 | FREE</strong></p>
+
+<figure>
+<img src="/images/museum-summer-2026/qianlong-relics.jpg" alt="Qianlong relics" />
+</figure>
+
+<p>121 treasures from the Qianlong era: ceremonial robes, imperial seals, jade carvings, enamelware, musical instruments. A long trip out to Fengxian, but the quality is real.</p>
+
+<h3>Star Shining in the East: Qingpu Archaeology</h3>
+<p><strong>Qingpu Museum | Until September 13, 2026 | FREE</strong></p>
+
+<figure>
+<img src="/images/museum-summer-2026/qingpu-archaeology.jpg" alt="Qingpu archaeology" />
+</figure>
+
+<p>Built around the stunning finds from the Songze and Fuquanshan sites in Qingpu, this show argues — convincingly — that "Yangtze River Delta integration" has 5,000-year-old roots.</p>
+<h3>Wood Structure: Linking Tradition and Future</h3>
+<p><strong>Shanghai World Skills Museum | Until June 14, 2026 | FREE</strong></p>
+
+<figure>
+<img src="/images/museum-summer-2026/wood-structure.jpg" alt="Wood structure" />
+</figure>
+
+<p>Seven thousand years of timber architecture — Neolithic mortise-and-tenon to parametric digital fabrication — in one tactile, sensory exhibition.</p>
+
+<h2>Also Worth the Ticket</h2>
+
+<ul>
+<li><strong>Paper and Water: A Conservation Dialogue</strong> | China Maritime Museum | Until June 15 | ¥30 — The meticulous science of saving water-damaged documents.</li>
+<li><strong>Only the Tree Knows: Nature × Art</strong> | Shanghai Natural History Museum | Until August 31 | ¥30 — Eleven international artists on trees, forests, and living worlds.</li>
+<li><strong>From Zero to Infinity: How Museum Exhibits Are Born</strong> | Shanghai Science &amp; Technology Museum | Until August 30 | ¥45 — The first exhibition ever about exhibit-making itself.</li>
+</ul>
+
+<h2>The Ticket That Ties It All Together</h2>
+
+<figure>
+<img src="/images/museum-summer-2026/shanghai-pass.png" alt="Shanghai Pass" />
+</figure>
+
+<p>Launched on International Museum Day 2026, the <strong>Shanghai Pass (¥299)</strong> is the summer's best deal. It covers admission to 150+ museums and venues across the city, anchored by World Tree Summit, and includes exclusive partner discounts. Only 5,180 passes in the first batch — these will not last. An international edition is also available for inbound foreign visitors.</p>
+
+<h2>Quick-Reference Planner</h2>
+
+<table>
+<thead>
+<tr><th>Exhibition</th><th>Venue</th><th>Dates</th><th>Price</th></tr>
+</thead>
+<tbody>
+<tr><td>World Tree Summit: Ancient Americas</td><td>Shanghai Museum (People's Square)</td><td>Jul 9 – Nov 14, 2027</td><td>¥148</td></tr>
+<tr><td>Reviving China: Qin Dynasty</td><td>Shanghai Museum East</td><td>Jun 10 – Sep 7</td><td>FREE</td></tr>
+<tr><td>Imperial Attire from the Forbidden City</td><td>World Expo Museum</td><td>Jul 7 – Oct 7</td><td>¥88</td></tr>
+<tr><td>Infinite Universe: Science &amp; Art</td><td>Astronomy Museum</td><td>May 23 – Aug 31</td><td>¥30</td></tr>
+<tr><td>Qianlong Emperor Relics</td><td>Fengxian Museum</td><td>Now – Nov 18</td><td>FREE</td></tr>
+<tr><td>Qingpu Archaeology</td><td>Qingpu Museum</td><td>Now – Sep 13</td><td>FREE</td></tr>
+<tr><td>Wood Structure</td><td>World Skills Museum</td><td>Now – Jun 14</td><td>FREE</td></tr>
+<tr><td>Paper &amp; Water: Conservation</td><td>Maritime Museum</td><td>Now – Jun 15</td><td>¥30</td></tr>
+<tr><td>Only the Tree Knows</td><td>Natural History Museum</td><td>Now – Aug 31</td><td>¥30</td></tr>
+<tr><td>From Zero to Infinity</td><td>Science &amp; Tech Museum</td><td>Now – Aug 30</td><td>¥45</td></tr>
+</tbody>
+</table>
+
+<h2>How to Plan Your Summer</h2>
+
+<p>If you are in Shanghai for a long weekend, cluster by geography. Downtown (People's Square): World Tree Summit + Urban Planning Exhibition Hall + a Bund walk. Pudong: Reviving China + Astronomy Museum + Museum of Art Pudong. Huangpu south: Imperial Attire at World Expo Museum, then cross to the West Bund for contemporary art.</p>
+
+<p>If you have only one museum day, buy the Shanghai Pass online now, book World Tree Summit for your morning slot, and let the rest of the day follow. The pass is the simplest way to turn a one-museum trip into a three-museum day without worrying about individual ticket pricing.</p>
+
+<p>This is not just Shanghai's most ambitious museum summer. It may be the most ambitious museum summer any city has ever attempted. Start planning now.</p>`,
+  },
+
 ];
 
 export function getGuide(slug: string): Guide | undefined {

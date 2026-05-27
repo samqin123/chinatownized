@@ -62,3 +62,4 @@ Use this file as the short operational summary for the next Claude or Codex sess
 - Update the relevant docs after each meaningful step.
 - Record important commits or pushes in `docs/git-log.md` with date and reason.
 - If the strategy changes, record the change here first so the next session does not drift.
+- The Shanghai 2026 Summer Museum Blockbusters guide (World Tree Summit + Qin Dynasty + Imperial Attire + 7 more exhibitions) is now live under the museums channel with local images.

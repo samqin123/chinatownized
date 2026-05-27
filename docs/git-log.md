@@ -169,3 +169,10 @@ Use one entry per meaningful commit or push:
 - Add a new entry after each meaningful commit or push that changes product behavior, architecture, or documented decisions.
 - Keep the note concise but specific enough that another agent can understand the intent without reading the whole diff.
 - If a later change revises an earlier decision, add a new entry rather than rewriting history.
+
+- Date: 2026-05-27
+- Change: Added "Shanghai's 2026 Summer Museum Blockbusters" guide — downloaded WeChat article from mp.weixin.qq.com/s/JF_arOh_0XchLt8qA37bPw via remote MCP, rewritten in English with local images under public/images/museum-summer-2026/.
+- Reason: The user wanted the 公众号 article converted to an English museum channel dispatch with preserved images.
+- Impact: New featured museums guide covers World Tree Summit, Qin Dynasty, Imperial Attire, and 7 more summer exhibitions. Ava Turner as author. TypeScript checks clean.
+- Commit: pending
+- Push: no

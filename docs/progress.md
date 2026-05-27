@@ -72,3 +72,4 @@ This file tracks the current state of the project so future Claude and Codex run
 - Keep the strategy focused on foreign-reader intent: what to see, how long to stay, whether to book, and how to combine stops into a route.
 - Preserve the one-site strategy unless a later decision explicitly splits a separate museum product.
 - Use `docs/git-log.md` to record meaningful commits and pushes with date and reason.
+- The Shanghai 2026 Summer Museum Blockbusters guide has been downloaded from WeChat, rewritten in English, and added as a featured museums dispatch with local images.
