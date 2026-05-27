@@ -150,6 +150,13 @@ Use one entry per meaningful commit or push:
 - Commit: pending
 - Push: no
 
+- Date: 2026-05-27
+- Change: Added `docs/workflow.md` to document the end-to-end content rewriting and publishing process.
+- Reason: The user wanted a reusable explanation of how to transform source material into a publishable article and keep the process consistent.
+- Impact: Future content work can follow a single documented flow for source handling, image fixes, build checks, and deployment.
+- Commit: pending
+- Push: no
+
 ## Usage Rule
 
 - Add a new entry after each meaningful commit or push that changes product behavior, architecture, or documented decisions.
