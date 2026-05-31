@@ -39,6 +39,7 @@ export default function Footer() {
             <h4 className="mb-3 font-[family-name:var(--font-mono)] text-[0.625rem] tracking-widest text-[var(--color-ink-muted)] uppercase">The Gazette</h4>
             <ul className="space-y-2 text-sm text-[var(--color-ink-muted)]">
               <li><Link href="/about" className="hover:text-[var(--color-ink)]">About</Link></li>
+              <li><Link href="/llm-hub" className="hover:text-[var(--color-ink)]">LLM Hub</Link></li>
               <li><Link href="/affiliate-disclosure" className="hover:text-[var(--color-ink)]">Affiliate Disclosure</Link></li>
               <li><Link href="/privacy" className="hover:text-[var(--color-ink)]">Privacy</Link></li>
               <li><Link href="/contact" className="hover:text-[var(--color-ink)]">Contact</Link></li>

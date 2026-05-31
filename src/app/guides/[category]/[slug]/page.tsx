@@ -4,8 +4,11 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import FaqSection from "@/components/article/FaqSection";
 import ClassifiedsSidebar from "@/components/ad/ClassifiedsSidebar";
+import SeoJsonLd from "@/components/SeoJsonLd";
 import { guides, getGuide } from "@/data/guides";
 import { getCategory } from "@/data/categories";
+import { generateArticleSchema } from "@/lib/seo";
+import { SITE_URL } from "@/lib/site";
 
 type Props = { params: Promise<{ category: string; slug: string }> };
 
@@ -16,7 +19,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: guide.title,
     description: guide.excerpt,
-    openGraph: { images: [guide.image] },
+    openGraph: {
+      title: guide.title,
+      description: guide.excerpt,
+      url: `${SITE_URL}/guides/${guide.category}/${guide.slug}`,
+      type: "article",
+      images: [guide.image],
+    },
+    alternates: {
+      canonical: `${SITE_URL}/guides/${guide.category}/${guide.slug}`,
+    },
   };
 }
 
@@ -40,6 +52,9 @@ export default async function ArticlePage({ params }: Props) {
   return (
     <>
       <Navbar />
+      <SeoJsonLd
+        jsonLd={generateArticleSchema(guide, `${SITE_URL}/guides/${guide.category}/${guide.slug}`)}
+      />
       <main className="mx-auto max-w-6xl px-4 py-8">
         <p className="dateline mb-4 text-xs">
           <a href="/" className="hover:text-[var(--color-ink)]">

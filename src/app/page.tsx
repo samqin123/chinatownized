@@ -5,14 +5,17 @@ import LeadStory from "@/components/home/LeadStory";
 import SidebarDispatch from "@/components/home/SidebarDispatch";
 import FeaturedCard from "@/components/home/FeaturedCard";
 import CategoryGrid from "@/components/home/CategoryGrid";
+import SeoJsonLd from "@/components/SeoJsonLd";
 import { getFeaturedGuides, getRecentGuides } from "@/data/guides";
+import { generateCollectionPageSchema } from "@/lib/seo";
+import { SITE_DESCRIPTION, SITE_URL } from "@/lib/site";
 
 export default function HomePage() {
   const featured = getFeaturedGuides();
   const recent = getRecentGuides(6);
   const lead = featured[0];
   const sb = featured.slice(1, 4);
-  return (<><Navbar/><Masthead/><main className="flex-1">
+  return (<><Navbar/><SeoJsonLd jsonLd={generateCollectionPageSchema("Charming Destinations", SITE_URL, SITE_DESCRIPTION)} /><Masthead/><main className="flex-1">
     <section className="mx-auto max-w-6xl px-4 pb-12">
       <div className="ornament-divider mb-6">LEAD STORY</div>
       <div className="grid gap-8 lg:grid-cols-[1fr_320px]">

@@ -4,6 +4,9 @@ import { Suspense } from "react";
 import Script from "next/script";
 import ContactWidget from "@/components/ContactWidget";
 import AnalyticsTracker from "@/components/AnalyticsTracker";
+import SeoJsonLd from "@/components/SeoJsonLd";
+import { generateWebSiteSchema } from "@/lib/seo";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -28,13 +31,26 @@ const gaMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 const clarityProjectId = process.env.NEXT_PUBLIC_CLARITY_PROJECT_ID;
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://chinatownized.com"),
+  metadataBase: new URL(SITE_URL),
   title: {
-    default: "Charming Destinations — China travel, museums, and citywalks",
+    default: `${SITE_NAME} — China travel, museums, and citywalks`,
     template: "%s | Charming Destinations",
   },
-  description:
-    "A China-focused travel magazine for curious visitors. Deep dispatches from museums, citywalks, exhibitions, and hidden places across China.",
+  description: SITE_DESCRIPTION,
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  alternates: {
+    canonical: SITE_URL,
+  },
   keywords: [
     "China travel guide",
     "China off the beaten path",
@@ -48,15 +64,17 @@ export const metadata: Metadata = {
     "China hidden gems",
   ],
   openGraph: {
-    siteName: "Charming Destinations",
-    title: "Charming Destinations — China travel, museums, and citywalks",
-    description: "A China-focused travel magazine for curious visitors.",
+    siteName: SITE_NAME,
+    title: `${SITE_NAME} — China travel, museums, and citywalks`,
+    description: SITE_DESCRIPTION,
     images: ["/og-default.jpg"],
+    url: SITE_URL,
+    type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Charming Destinations",
-    description: "A China-focused travel magazine for curious visitors.",
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
     images: ["/og-default.jpg"],
   },
 };
@@ -70,6 +88,7 @@ export default function RootLayout({
     <html lang="en" className={`${playfair.variable} ${inter.variable} ${dmMono.variable}`}>
       <body className="relative min-h-screen antialiased">
         <div className="relative z-10 flex min-h-screen flex-col">{children}</div>
+        <SeoJsonLd jsonLd={generateWebSiteSchema()} />
         {gaMeasurementId ? (
           <>
             <Script

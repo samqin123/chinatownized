@@ -50,6 +50,7 @@ Use this file as the short operational summary for the next Claude or Codex sess
 - Keep the hidden-museum rewrite focused on practical visitor value: what the museum teaches, what neighborhood it sits in, and whether it is worth the trip.
 - Keep partner windows native to the editorial layout so they feel like useful travel modules rather than intrusive ads.
 - Keep category-page monetization in the right sidebar so the article grid remains the dominant surface.
+- The site now has a machine-readable discovery layer: `robots.txt`, `sitemap.xml`, `llms.txt`, `llm-hub`, canonical URLs, and JSON-LD for the site and content pages.
 
 ## What To Do Next
 
@@ -59,6 +60,7 @@ Use this file as the short operational summary for the next Claude or Codex sess
 3. Decide whether to keep the external image URLs or move to local static assets.
 4. Define lead/ad insertion points on museum pages.
 5. Continue the Ancient Towns line with more Suzhou-area follow-ups if needed.
+6. Watch post-deploy indexing and consider adding more cross-links if the crawler surface still looks thin.
 
 ## Working Rule
 

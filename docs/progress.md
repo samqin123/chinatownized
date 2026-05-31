@@ -65,6 +65,8 @@ This file tracks the current state of the project so future Claude and Codex run
 - Refine the museum news article for freshness and reader conversion.
 - Draft the next article with a topic-appropriate virtual author.
 
+- The site now has `robots.txt`, `sitemap.xml`, `llms.txt`, a machine-readable `LLM Hub`, canonical URLs, and JSON-LD for the site, collections, and article pages to improve crawlability and AI discovery.
+
 ## Blockers
 
 - None at the moment.

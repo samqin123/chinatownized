@@ -99,3 +99,9 @@ This file records durable product and implementation decisions so Claude and Cod
 - Reason: The user wants ad-like windows that feel native to the content and can support affiliate-style monetization without disrupting the reading flow.
 - Scope: Site monetization and affiliate placement UI.
 - Status: Approved.
+
+- Date: 2026-05-31
+- Decision: Add SEO and AI-discovery infrastructure with `robots.txt`, `sitemap.xml`, `llms.txt`, `llm-hub`, canonical metadata, and JSON-LD schemas.
+- Reason: The site needs stronger crawlability and machine-readable summaries so search engines and AI systems can discover the content graph faster and with less ambiguity.
+- Scope: Metadata routes, AI summary page, canonical metadata, structured data, and internal discovery links.
+- Status: Approved.

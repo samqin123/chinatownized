@@ -190,3 +190,10 @@ Use one entry per meaningful commit or push:
 - Impact: New featured museums guide covers World Tree Summit, Qin Dynasty, Imperial Attire, and 7 more summer exhibitions. Ava Turner as author. TypeScript checks clean.
 - Commit: pending
 - Push: no
+
+- Date: 2026-05-31
+- Change: Added SEO and AI-discovery infrastructure with `robots.txt`, `sitemap.xml`, `llms.txt`, `llm-hub`, canonical metadata, and JSON-LD schemas for the site, collections, and article pages.
+- Reason: The site needed a stronger machine-readable surface so search engines and AI systems can discover the content graph with less ambiguity.
+- Impact: Crawlers now have explicit index and sitemap entry points, plus an LLM-oriented hub page and schema-backed page semantics.
+- Commit: pending
+- Push: no

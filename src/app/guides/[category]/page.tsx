@@ -4,8 +4,11 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import FeaturedCard from "@/components/home/FeaturedCard";
 import ClassifiedsSidebar from "@/components/ad/ClassifiedsSidebar";
+import SeoJsonLd from "@/components/SeoJsonLd";
 import { getCategory, categories } from "@/data/categories";
 import { getGuidesByCategory } from "@/data/guides";
+import { generateCollectionPageSchema } from "@/lib/seo";
+import { SITE_URL } from "@/lib/site";
 import type { CategorySlug } from "@/types";
 
 type Props = { params: Promise<{ category: string }> };
@@ -14,7 +17,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category } = await params;
   const cat = getCategory(category);
   if (!cat) return {};
-  return { title: cat.title, description: cat.description };
+  return {
+    title: cat.title,
+    description: cat.description,
+    alternates: {
+      canonical: `${SITE_URL}/guides/${cat.slug}`,
+    },
+    openGraph: {
+      title: cat.title,
+      description: cat.description,
+      url: `${SITE_URL}/guides/${cat.slug}`,
+      type: "website",
+      images: ["/og-default.jpg"],
+    },
+  };
 }
 
 export async function generateStaticParams() {
@@ -30,6 +46,13 @@ export default async function CategoryPage({ params }: Props) {
   return (
     <>
       <Navbar />
+      <SeoJsonLd
+        jsonLd={generateCollectionPageSchema(
+          cat.title,
+          `${SITE_URL}/guides/${cat.slug}`,
+          cat.description,
+        )}
+      />
       <main className="mx-auto max-w-6xl px-4 py-12">
         <p className="dateline mb-1">CHARMING DESTINATIONS &raquo; {cat.title.toUpperCase()}</p>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl font-bold md:text-4xl">
