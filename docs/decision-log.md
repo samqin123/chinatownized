@@ -99,3 +99,21 @@ This file records durable product and implementation decisions so Claude and Cod
 - Reason: The user wants ad-like windows that feel native to the content and can support affiliate-style monetization without disrupting the reading flow.
 - Scope: Site monetization and affiliate placement UI.
 - Status: Approved.
+
+- Date: 2026-05-27
+- Decision: Use a project-level taste check in `docs/workflow.md` for page structure changes instead of creating a separate skill.
+- Reason: The user decided the taste workflow is useful but not stable enough to justify a standalone skill, and wants it recorded in the project process instead.
+- Scope: Editorial layout workflow and page-level UI changes.
+- Status: Approved.
+
+- Date: 2026-05-30
+- Decision: Revert the project-level YAML frontmatter rule for `SKILL.md` / `skills.md` because it belongs in the global Codex `AGENTS.md`, not this repo's local rules.
+- Reason: The user clarified the requirement is global, so the project docs should not duplicate it.
+- Scope: Local project sync docs.
+- Status: Approved.
+
+- Date: 2026-05-31
+- Decision: Centralize analytics into one client tracker plus a shared helper, and gate GA4 and Clarity injection in the root layout by public env vars.
+- Reason: The site needs maintainable full-site tracking with route changes, guide views, dwell events, outbound clicks, and explicit event links handled consistently.
+- Scope: Global layout, analytics helper, route tracker, and deployment environment wiring.
+- Status: Approved.

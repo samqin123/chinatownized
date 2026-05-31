@@ -54,6 +54,10 @@ This file tracks the current state of the project so future Claude and Codex run
 - Keep the policy pages concise and reader-friendly while staying compliant.
 - Channel-aware partner windows now exist for article sidebars and category pages, using local SVG assets for JD, Ctrip, Air China, China Eastern, Hilton, and Dianping.
 - Category pages now keep the main content as the dominant column and move partner windows into a right-hand sidebar, matching the article-page layout.
+- The workflow now includes a taste-check step for page structure changes before implementation.
+- GA4 and Microsoft Clarity are now wired through the root layout with env-gated injection, and client-side route tracking handles page_view, guide_view, engaged_read, outbound_click, and explicit analytics links.
+- The privacy page now states that the site uses GA4 and Clarity for traffic and usability analysis.
+- GitHub Actions now passes GA/Clarity env vars into pull, build, and deploy steps so Vercel build-time rendering can read them.
 
 ## Next
 
@@ -75,3 +79,4 @@ This file tracks the current state of the project so future Claude and Codex run
 - Preserve the one-site strategy unless a later decision explicitly splits a separate museum product.
 - Use `docs/git-log.md` to record meaningful commits and pushes with date and reason.
 - The Shanghai 2026 Summer Museum Blockbusters guide has been downloaded from WeChat, rewritten in English, and added as a featured museums dispatch with local images.
+- Keep layout changes behind a quick taste check, but do not force that step onto pure content rewrites.

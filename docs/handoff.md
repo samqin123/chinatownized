@@ -50,6 +50,11 @@ Use this file as the short operational summary for the next Claude or Codex sess
 - Keep the hidden-museum rewrite focused on practical visitor value: what the museum teaches, what neighborhood it sits in, and whether it is worth the trip.
 - Keep partner windows native to the editorial layout so they feel like useful travel modules rather than intrusive ads.
 - Keep category-page monetization in the right sidebar so the article grid remains the dominant surface.
+- Page-structure changes now require a quick taste check before implementation; pure content rewrites can skip it.
+- The root layout now conditionally injects GA4 and Clarity using `NEXT_PUBLIC_GA_MEASUREMENT_ID` and `NEXT_PUBLIC_CLARITY_PROJECT_ID`.
+- `src/components/AnalyticsTracker.tsx` now owns route-driven `page_view`, `guide_view`, `engaged_read`, `outbound_click`, and explicit `data-analytics-event` reporting.
+- `src/lib/analytics.ts` now provides the shared gtag fallback and typed event helpers.
+- `docs/workflow.md` already covers the deployment expectation; GitHub Actions now mirrors the env vars into Vercel pull/build/deploy steps.
 
 ## What To Do Next
 

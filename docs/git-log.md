@@ -190,3 +190,17 @@ Use one entry per meaningful commit or push:
 - Impact: New featured museums guide covers World Tree Summit, Qin Dynasty, Imperial Attire, and 7 more summer exhibitions. Ava Turner as author. TypeScript checks clean.
 - Commit: pending
 - Push: no
+
+- Date: 2026-05-27
+- Change: Added a project-level taste-check step to `docs/workflow.md` and mirrored it in `AGENTS.md` and `CLAUDE.md`.
+- Reason: The user decided page-structure decisions should be handled in the workflow instead of creating a separate skill.
+- Impact: Layout changes now need a short visual review before implementation, while pure content rewrites stay on the fast path.
+- Commit: pending
+- Push: no
+
+- Date: 2026-05-31
+- Change: Added GA4 and Microsoft Clarity full-site tracking with a shared analytics helper, a route-aware client tracker, privacy copy, `.env.example` entries, and GitHub Actions env propagation.
+- Reason: The site needed a maintainable analytics implementation that works at build time and during client-side navigation.
+- Impact: The root layout now conditionally injects analytics scripts, route changes emit `page_view`, `guide_view`, `engaged_read`, `outbound_click`, and explicit link events, and CI/Vercel builds can read the public analytics IDs.
+- Commit: pending
+- Push: no

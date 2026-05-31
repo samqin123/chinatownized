@@ -15,4 +15,5 @@ This version has breaking changes — APIs, conventions, and file structure may 
 7. 交接摘要写入 `docs/handoff.md`
 8. 重要 commit / push 记录写入 `docs/git-log.md`
 9. 如果策略、优先级或实现方案变化，先更新文档再继续开发
-10. `CLAUDE.md` 和 `AGENTS.md` 需要保持同一套内容策略与同步规则，不要各写各的
+10. 如果任务涉及页面结构、广告位、partner window、hero 区块或导航改版，先做 taste check，再写入 `docs/decision-log.md`
+11. `CLAUDE.md` 和 `AGENTS.md` 需要保持同一套内容策略与同步规则，不要各写各的
