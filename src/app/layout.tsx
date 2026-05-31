@@ -66,13 +66,11 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const enableGa4 = Boolean(gaMeasurementId);
-  const enableClarity = Boolean(clarityProjectId);
   return (
     <html lang="en" className={`${playfair.variable} ${inter.variable} ${dmMono.variable}`}>
       <body className="relative min-h-screen antialiased">
         <div className="relative z-10 flex min-h-screen flex-col">{children}</div>
-        {enableGa4 ? (
+        {gaMeasurementId ? (
           <>
             <Script
               src={`https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`}
@@ -84,12 +82,12 @@ export default function RootLayout({
                 function gtag(){window.dataLayer.push(arguments);}
                 window.gtag = gtag;
                 gtag('js', new Date());
-                gtag('config', '${gaMeasurementId}');
+                gtag('config', '${gaMeasurementId}', { send_page_view: false });
               `}
             </Script>
           </>
         ) : null}
-        {enableClarity ? (
+        {clarityProjectId ? (
           <Script id="clarity-init" strategy="afterInteractive">
             {`
               (function(c,l,a,r,i,t,y){
@@ -101,7 +99,7 @@ export default function RootLayout({
           </Script>
         ) : null}
         <Suspense fallback={null}>
-          <AnalyticsTracker enabled={enableGa4 || enableClarity} />
+          <AnalyticsTracker measurementId={gaMeasurementId} />
         </Suspense>
         <ContactWidget />
       </body>

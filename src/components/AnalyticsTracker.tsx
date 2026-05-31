@@ -1,47 +1,30 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
-import {
-  isExternalUrl,
-  setUserProperties,
-  trackEngagedRead,
-  trackExplicitLinkEvent,
-  trackGuideView,
-  trackOutboundClick,
-  trackPageView,
-} from "@/lib/analytics";
+import { isExternalUrl, setUserProperties, trackEvent } from "@/lib/analytics";
 
 type Props = {
-  enabled?: boolean;
+  measurementId?: string;
 };
 
 const ENGAGED_THRESHOLD_MS = 45_000;
 const INTEREST_STORE_KEY = "charming-destinations.interest-categories";
 
-function getGuideRouteParts(pathname: string) {
-  const parts = pathname.split("/").filter(Boolean);
-  if (parts[0] !== "guides" || !parts[1] || !parts[2]) {
-    return undefined;
-  }
-  return {
-    category: parts[1],
-    slug: parts[2],
-  };
-}
-
 function getInterestCategory(pathname: string) {
-  return getGuideRouteParts(pathname)?.category;
+  const parts = pathname.split("/").filter(Boolean);
+  if (parts[0] !== "guides") return undefined;
+  return parts[1];
 }
 
 function getCategoryLabel(pathname: string) {
   const category = getInterestCategory(pathname);
-  return category ? category.replaceAll("-", " ") : undefined;
+  if (!category) return undefined;
+  return category.replaceAll("-", " ");
 }
 
 function readInterestCategories() {
   if (typeof window === "undefined") return [];
-
   try {
     const raw = window.localStorage.getItem(INTEREST_STORE_KEY);
     if (!raw) return [];
@@ -54,7 +37,6 @@ function readInterestCategories() {
 
 function writeInterestCategories(categories: string[]) {
   if (typeof window === "undefined") return;
-
   try {
     window.localStorage.setItem(INTEREST_STORE_KEY, JSON.stringify(categories));
   } catch {
@@ -62,43 +44,33 @@ function writeInterestCategories(categories: string[]) {
   }
 }
 
-function collectLinkMetadata(anchor: HTMLAnchorElement) {
-  return {
-    href: anchor.href,
-    text: (anchor.textContent || anchor.getAttribute("title") || "").trim(),
-    channel: anchor.getAttribute("data-analytics-channel") || undefined,
-    partner: anchor.getAttribute("data-analytics-partner") || undefined,
-    placement: anchor.getAttribute("data-analytics-placement") || undefined,
-  };
-}
-
-export default function AnalyticsTracker({ enabled = true }: Props) {
+export default function AnalyticsTracker({ measurementId }: Props) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const currentPathRef = useRef<string>("");
 
   useEffect(() => {
-    if (!enabled) return;
+    if (!measurementId) return;
+    trackEvent("page_view", {
+      page_path: `${pathname}${searchParams.toString() ? `?${searchParams.toString()}` : ""}`,
+      page_location: window.location.href,
+      page_title: document.title,
+    });
 
-    const search = searchParams.toString();
-    const fullPath = `${pathname}${search ? `?${search}` : ""}`;
-    if (currentPathRef.current === fullPath) return;
-    currentPathRef.current = fullPath;
-
-    trackPageView(pathname, search);
-
-    const guideRoute = getGuideRouteParts(pathname);
-    if (guideRoute) {
-      trackGuideView(guideRoute.category, guideRoute.slug, pathname);
+    const parts = pathname.split("/").filter(Boolean);
+    if (parts[0] === "guides" && parts[1] && parts[2]) {
+      trackEvent("guide_view", {
+        content_category: parts[1],
+        content_slug: parts[2],
+        page_path: pathname,
+      });
     }
-  }, [enabled, pathname, searchParams]);
+  }, [measurementId, pathname, searchParams]);
 
   useEffect(() => {
-    if (!enabled) return;
+    if (!measurementId) return;
 
     const category = getInterestCategory(pathname);
-    const guideRoute = getGuideRouteParts(pathname);
-    if (!category || !guideRoute) return;
+    if (!category) return;
 
     let activeMs = 0;
     let startedAt = document.visibilityState === "visible" ? performance.now() : 0;
@@ -121,7 +93,11 @@ export default function AnalyticsTracker({ enabled = true }: Props) {
         dwell_bucket: "45s_plus",
       });
 
-      trackEngagedRead(category, pathname, ENGAGED_THRESHOLD_MS);
+      trackEvent("engaged_read", {
+        content_category: category,
+        page_path: pathname,
+        dwell_ms: ENGAGED_THRESHOLD_MS,
+      });
     };
 
     const schedule = () => {
@@ -157,10 +133,10 @@ export default function AnalyticsTracker({ enabled = true }: Props) {
         activeMs += performance.now() - startedAt;
       }
     };
-  }, [enabled, pathname]);
+  }, [measurementId, pathname]);
 
   useEffect(() => {
-    if (!enabled) return;
+    if (!measurementId) return;
 
     const handleClick = (event: MouseEvent) => {
       const target = event.target;
@@ -172,21 +148,29 @@ export default function AnalyticsTracker({ enabled = true }: Props) {
       const href = anchor.getAttribute("href");
       if (!href || href.startsWith("#") || href.startsWith("javascript:")) return;
 
-      const metadata = collectLinkMetadata(anchor);
       const explicitEvent = anchor.getAttribute("data-analytics-event");
       if (explicitEvent) {
-        trackExplicitLinkEvent(explicitEvent, metadata.href, metadata.text, metadata);
+        trackEvent(explicitEvent, {
+          link_url: href,
+          link_text: (anchor.textContent || anchor.getAttribute("title") || "").trim(),
+          channel: anchor.getAttribute("data-analytics-channel") || undefined,
+          partner: anchor.getAttribute("data-analytics-partner") || undefined,
+          placement: anchor.getAttribute("data-analytics-placement") || undefined,
+        });
         return;
       }
 
       if (isExternalUrl(href)) {
-        trackOutboundClick(metadata.href, metadata.text);
+        trackEvent("outbound_click", {
+          link_url: href,
+          link_text: (anchor.textContent || anchor.getAttribute("title") || "").trim(),
+        });
       }
     };
 
     document.addEventListener("click", handleClick, true);
     return () => document.removeEventListener("click", handleClick, true);
-  }, [enabled]);
+  }, [measurementId]);
 
   return null;
 }

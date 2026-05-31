@@ -17,17 +17,15 @@ export default function PrivacyPage() {
         </p>
         <p className="mt-4 text-[var(--color-ink-muted)] leading-relaxed">
           We may use standard analytics, email delivery, and affiliate tracking tools. For
-          analytics, this site uses Google Analytics 4 and Microsoft Clarity to understand page
-          traffic, reading behavior, and site usability. These services may collect technical
-          information such as browser type, pages visited, referral data, and interaction
-          patterns. We do not intend to collect more personal data than necessary.
+          analytics, this site may use Google Analytics 4 and Microsoft Clarity to understand
+          page traffic and improve the reader experience. These services may collect technical
+          information such as browser type, pages visited, or basic referral data. We do not
+          intend to collect more personal data than necessary.
         </p>
         <p className="mt-4 text-[var(--color-ink-muted)] leading-relaxed">
           When a visitor spends enough time reading a guide, we may create a broad interest tag
           such as museums or citywalks to understand content preference at an aggregate level.
-          We also measure route changes, outbound clicks, and explicit link interactions to help
-          us improve navigation and content placement. We do not use this site to collect
-          sensitive personal profile data.
+          We do not use this site to collect sensitive personal profile data.
         </p>
         <p className="mt-4 text-[var(--color-ink-muted)] leading-relaxed">
           If you subscribe or contact us, your information will only be used for the purpose you
