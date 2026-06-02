@@ -225,3 +225,10 @@ Use one entry per meaningful commit or push:
 - Impact: The Citywalks channel now includes a large-scale neighborhood checklist for route planning and editorial reuse.
 - Commit: pending
 - Push: no
+
+- Date: 2026-06-02
+- Change: Added a Shanghai century-old buildings guide that reorganizes a 100-point architecture list into district-based walking routes.
+- Reason: The user provided a detailed district list of 100 heritage buildings and asked for a publishable rewrite.
+- Impact: The Citywalks channel now includes a structured Shanghai architecture walk with local images and district grouping.
+- Commit: pending
+- Push: no

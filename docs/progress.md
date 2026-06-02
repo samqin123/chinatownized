@@ -70,6 +70,7 @@ This file tracks the current state of the project so future Claude and Codex run
 - Added a new Shanghai taxi-driver profile story about Seven, a 43-year-old Shanghai driver with strong English and a niche WeChat following, using local images under `public/images/seven-taxi/`.
 - Added a new Shanghai inbound tourism story about South America visa-free entry, framed around the one-year policy milestone and Shanghai port arrival patterns.
 - Added a new Shanghai citywalk list article with 50 check-in spots for 2026, grouped by districts including the Bund edge, French Concession, Suzhou Creek, West Bund, and Pudong.
+- Added a Shanghai century-old buildings guide that reorganizes a 100-point district list into a walkable architecture map for Jing'an, Xuhui, Huangpu, Hongkou, Pudong, and outer districts.
 
 ## Blockers
 

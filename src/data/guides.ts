@@ -126,6 +126,188 @@ export const guides: Guide[] = [
     `,
   },
   {
+    slug: "shanghai-century-buildings-100",
+    title: "Shanghai's 100 Century-Old Buildings: A District-by-District Walking Guide",
+    excerpt:
+      "A practical Shanghai architecture map built from 100 century-old buildings and heritage addresses across Jing'an, Xuhui, Huangpu, Hongkou, Pudong, Changning, and more.",
+    dateline: "SHANGHAI",
+    category: "citywalks",
+    author: {
+      name: "Liam Walker",
+      avatar: "/authors/liam.jpg",
+      bio: "Former architecture and urbanism journalist from the UK, now based in East Asia. Focused on walkable routes, skyline logic, and urban photography.",
+    },
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    image: "/images/shanghai-citywalk-50/male.jpeg",
+    imageAlt: "A historic Shanghai building with distinctive architectural details",
+    readTime: 14,
+    tags: ["shanghai", "architecture", "heritage", "walking guide", "century buildings"],
+    body: `
+      <p>Shanghai is one of the easiest cities in China to read through architecture. The city does not just preserve old buildings. It uses them. That is why a 100-building walking map makes sense here: it lets you move district by district and understand how Shanghai grew from treaty-port streets into a layered modern metropolis.</p>
+
+      <p>Instead of turning the list into a flat checklist, the smarter way is to group it by neighborhood. That is how Shanghai actually works on foot. Some streets are best in the morning. Some blocks are better when the light is low. Some buildings are worth entering, while others are better seen from across the road.</p>
+
+      <figure>
+        <img src="/images/shanghai-citywalk-50/male.jpeg" alt="Historic Shanghai architecture with tower details and a bright sky" />
+      </figure>
+
+      <h2>How to use this guide</h2>
+      <p>If you only have one day, choose one district. If you have two, combine one central district with one riverfront district. The best Shanghai architecture walk is not the longest one. It is the one that lets you notice materials, setbacks, façades, courtyards, and street rhythm without rushing.</p>
+      <p>What follows is a practical version of the list you shared, arranged by district and cleaned up for readers who want a walkable route rather than a data dump.</p>
+
+      <h2>Jing'an: old residences, civic memory, and Nanjing West Road</h2>
+      <p>Jing'an is one of the strongest starting points because it mixes famous villas, old residences, and a few larger public buildings that still anchor the district visually. Start around Jing'an Temple, then fan out along Huashan Road, Wuding Road, and Nanjing West Road.</p>
+      <ol>
+        <li>Huashan Art Museum</li>
+        <li>Cai Yuanpei Former Residence</li>
+        <li>Drummond Residence</li>
+        <li>Yuanli Pawnshop Site</li>
+        <li>Butterfly Bay Community Canteen</li>
+        <li>Eileen Chang Former Residence</li>
+        <li>Site of the Sihang Warehouse</li>
+        <li>Prada Rong Zhai</li>
+        <li>Moller Villa</li>
+        <li>Zhang Garden</li>
+        <li>Heto Old Residence</li>
+        <li>Zha Residence</li>
+        <li>Deyi Building</li>
+        <li>Grand Cinema</li>
+        <li>Jinganli Tang Residence</li>
+        <li>Shanghai General Chamber of Commerce</li>
+      </ol>
+      <p>The best part of this district is that the buildings do not feel isolated. They sit in a living urban fabric. That is what makes Jing'an useful for architecture lovers: it is not a museum district, it is a city district that still carries memory.</p>
+
+      <figure>
+        <img src="/images/shanghai-citywalk-50/sihangcangku.jpeg" alt="The Sihang Warehouse memorial site in Shanghai" />
+      </figure>
+
+      <h2>Xuhui: villas, churches, conservatories, and academic Shanghai</h2>
+      <p>Xuhui is where the city becomes softer and more residential. It is the district for lane houses, cultural institutions, music, church architecture, and the old intellectual Shanghai that still survives under the plane trees.</p>
+      <ol start="17">
+        <li>Ba Jin Former Residence</li>
+        <li>Romeo Balcony</li>
+        <li>Ke Ling Former Residence</li>
+        <li>Xujiahui Library Tower</li>
+        <li>Soong Ching-ling Former Residence</li>
+        <li>Shanghai Conservatory of Music</li>
+        <li>Oriental Musical Instrument Museum</li>
+        <li>White House on Fenyang Road</li>
+        <li>Shanghai Symphony Museum</li>
+        <li>66 Wutong Courtyard</li>
+        <li>Shanghai Peking Opera Training Hall</li>
+        <li>Xia Yan Former Residence</li>
+        <li>Shanghai Meteorological Museum</li>
+        <li>Pathé Little House</li>
+        <li>Xujiahui Cathedral</li>
+        <li>Tushanwan Museum</li>
+        <li>Former Xuhui School</li>
+        <li>Shanghai Arts and Crafts Museum</li>
+        <li>Wukang Building</li>
+        <li>Jianye Li</li>
+        <li>Yuejie Hengshan Road 8</li>
+        <li>Longhua Pagoda</li>
+      </ol>
+      <p>If Jing'an is about density, Xuhui is about atmosphere. This is the district where you should slow down. The best strategy is to walk a few blocks, stop, look up, and then keep moving.</p>
+
+      <figure>
+        <img src="/images/shanghai-citywalk-50/male.jpeg" alt="Historic architecture in Shanghai's Xuhui district" />
+      </figure>
+
+      <h2>Huangpu: riverfront finance, grand hotels, and civic landmarks</h2>
+      <p>Huangpu is the city’s historical center, so the architecture mix is more formal and more public-facing. You get churches, banks, hotels, clubs, publishing houses, civic halls, and the famous Bund façades that turn Shanghai into a skyline story.</p>
+      <ol start="39">
+        <li>Holy Trinity Church</li>
+        <li>Muen Church</li>
+        <li>Old Municipal Government Building</li>
+        <li>Shamei Building</li>
+        <li>Shanghai General Chamber of Commerce Old Site</li>
+        <li>Riverside Building</li>
+        <li>Garden Hotel exterior</li>
+        <li>Taikoo Dock / Taikoo Yanghang</li>
+        <li>Shanghai Telecom Museum</li>
+        <li>Asia Building</li>
+        <li>Shanghai Club Building</li>
+        <li>SPDB Building</li>
+        <li>Shanghai Labor Model Gallery</li>
+        <li>HSBC-style banking building</li>
+        <li>Bank of East Asia Building</li>
+        <li>Rockbund Art Museum area</li>
+        <li>Four Seasons Savings Bank Building</li>
+        <li>Shen Bao Building</li>
+        <li>Great World</li>
+        <li>Fuxing Library</li>
+        <li>Soong Ching-ling-related residences and sites</li>
+        <li>Shanghai Concert Hall</li>
+        <li>Jinmen Hotel</li>
+        <li>International Hotel</li>
+        <li>Workers' Cultural Palace</li>
+        <li>Shanghai History Museum</li>
+        <li>Western Youth Association</li>
+        <li>Merchant's Guild Hall</li>
+        <li>Shanghai Science Hall exterior</li>
+        <li>Yangtze Hotel exterior</li>
+      </ol>
+      <p>This is the strongest district for people who want the “big Shanghai” version of heritage. It is where finance, media, religion, and public culture overlap. If you only have time for one downtown architecture run, Huangpu is the most obvious choice.</p>
+
+      <h2>Hongkou: publishing, rescue history, and left-bank memory</h2>
+      <p>Hongkou is one of the city’s most interesting heritage districts because it combines waterfront history, publishing, political memory, and a deeper social layer. It is less polished than the Bund and therefore often more rewarding.</p>
+      <ol start="77">
+        <li>DuoLun Road White Residence</li>
+        <li>1933 Old Millfun</li>
+        <li>Jewish Refugees Museum</li>
+        <li>HaiPai Culture Center</li>
+        <li>Ba Jin Library</li>
+        <li>1925 Bookstore</li>
+        <li>China Securities Museum</li>
+        <li>Shanghai Postal Museum</li>
+        <li>Lu Xun and Uchiyama Memorial Bookstore</li>
+        <li>Left League Site Memorial</li>
+        <li>Shanghai Mansion</li>
+        <li>Lu Xun Former Residence</li>
+      </ol>
+      <p>If you care about literary Shanghai, publishing history, or the city’s more layered twentieth-century stories, Hongkou deserves a full afternoon. It also gives you some of the best examples of adaptive reuse in the city.</p>
+
+      <h2>Pudong: local villages, towers, and outlying heritage</h2>
+      <p>Pudong is not just skyscrapers. The farther edges of the district still hold older temples, houses, and local heritage sites that make the area more interesting than people expect.</p>
+      <ol start="74">
+        <li>Yangxian Hall</li>
+        <li>Chen Guichun Residence</li>
+        <li>Tangzhen Catholic Church</li>
+      </ol>
+      <p>These are not the most famous stops on the list, but they remind you that heritage in Shanghai is not limited to the city center. It also survives where the city keeps expanding outward.</p>
+
+      <h2>Changning, Minhang, Songjiang, and Putuo: the outer-layer route</h2>
+      <p>The outer districts matter because they show how heritage survives outside the classic downtown loop. In Changning, you get villas, university remnants, and club architecture. In Minhang and Songjiang, you move into ancient-town and garden territory. In Putuo, the surviving lane houses and commercial compounds keep the city’s everyday texture alive.</p>
+      <ol start="89">
+        <li>Qibao Ancient Town</li>
+        <li>Drunken White Pool Park</li>
+        <li>Guangfulin Cultural Site</li>
+        <li>Navy Club Pool</li>
+        <li>Tsutaya Bookstore site</li>
+        <li>Xiyan Hall</li>
+        <li>Former Saint John's University site</li>
+        <li>Wang Boqun Residence</li>
+        <li>Udagawa Memorial Hall</li>
+        <li>Sunke Villa</li>
+        <li>Hongshoufang</li>
+        <li>Tongyi Lane</li>
+      </ol>
+      <p>These areas are better treated as half-day or full-day side missions. They are not the core of the classic Shanghai architecture walk, but they are important if you want the city’s heritage map to feel complete.</p>
+
+      <figure>
+        <img src="/images/shanghai-citywalk-50/zhujiajiao.jpeg" alt="Water town architecture used as a visual reminder of Shanghai's outer heritage layer" />
+      </figure>
+
+      <h2>How to turn the list into an actual trip</h2>
+      <p>For a first-time visitor, I would split the list into four days: Jing'an and Xuhui on one day, Huangpu on another, Hongkou on a third, and an outer-district day for Qibao, Guangfulin, or Changning depending on your interests. That gives you a cleaner reading of Shanghai than trying to sprint through all 100 points at once.</p>
+      <p>The most important thing is not the count. It is the sequence. Shanghai rewards sequence more than speed.</p>
+
+      <h2>Bottom line</h2>
+      <p>This 100-building list works because Shanghai itself is a city of layers. The district names are not just map labels. They are different urban arguments about what the city was, what it became, and what parts of the past it still keeps alive. If you follow the list district by district, you will get a much clearer Shanghai than you would from a generic top-100 list.</p>
+    `,
+  },
+  {
     slug: "shanghai-south-america-visa-one-year-inbound-tourism",
     title:
       "South America Visa-Free Travel to China Turns One: Shanghai Port Entry Tourism Keeps Rising",

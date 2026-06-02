@@ -55,6 +55,7 @@ Use this file as the short operational summary for the next Claude or Codex sess
 - A new Shanghai driver profile story now exists for Seven, with local images saved under `public/images/seven-taxi/` and the WeChat account `seventrip` noted in the article text.
 - A new Shanghai inbound tourism story now exists about South America visa-free entry and Shanghai port traffic, using the museum/photo archive as local imagery placeholders for now.
 - A new Shanghai citywalk list story now exists with 50 neighborhood check-in points for 2026, grouped into old Shanghai, French Concession, Suzhou Creek, West Bund, and Pudong.
+- A new Shanghai century-old buildings story now exists, reorganizing a 100-point architecture list into district-based walking routes with local images from `public/images/shanghai-citywalk-50/`.
 
 ## What To Do Next
 
