@@ -53,6 +53,11 @@ docs/2025-中国博物馆文旅市场-国外访客调研.md
 *.bak
 *.bak.*
 
+# project sync docs
+docs/git-log.md
+docs/handoff.md
+docs/progress.md
+
 # vercel
 .vercel
 
