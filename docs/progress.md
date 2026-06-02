@@ -66,6 +66,10 @@ This file tracks the current state of the project so future Claude and Codex run
 - Draft the next article with a topic-appropriate virtual author.
 
 - The site now has `robots.txt`, `sitemap.xml`, `llms.txt`, a machine-readable `LLM Hub`, canonical URLs, and JSON-LD for the site, collections, and article pages to improve crawlability and AI discovery.
+- Added a new Shanghai practical transport guide, `First Time in Shanghai? Use DiDi, Not Street Hails`, under the Citywalks channel, including the user-requested warning about unlicensed cars near the Shanghai Science and Technology Museum station.
+- Added a new Shanghai taxi-driver profile story about Seven, a 43-year-old Shanghai driver with strong English and a niche WeChat following, using local images under `public/images/seven-taxi/`.
+- Added a new Shanghai inbound tourism story about South America visa-free entry, framed around the one-year policy milestone and Shanghai port arrival patterns.
+- Added a new Shanghai citywalk list article with 50 check-in spots for 2026, grouped by districts including the Bund edge, French Concession, Suzhou Creek, West Bund, and Pudong.
 
 ## Blockers
 

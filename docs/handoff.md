@@ -51,6 +51,10 @@ Use this file as the short operational summary for the next Claude or Codex sess
 - Keep partner windows native to the editorial layout so they feel like useful travel modules rather than intrusive ads.
 - Keep category-page monetization in the right sidebar so the article grid remains the dominant surface.
 - The site now has a machine-readable discovery layer: `robots.txt`, `sitemap.xml`, `llms.txt`, `llm-hub`, canonical URLs, and JSON-LD for the site and content pages.
+- A new Shanghai transport advice article now exists in the Citywalks channel, focused on DiDi, mini programs, street-hail avoidance, and the Shanghai Science and Technology Museum station black-car warning.
+- A new Shanghai driver profile story now exists for Seven, with local images saved under `public/images/seven-taxi/` and the WeChat account `seventrip` noted in the article text.
+- A new Shanghai inbound tourism story now exists about South America visa-free entry and Shanghai port traffic, using the museum/photo archive as local imagery placeholders for now.
+- A new Shanghai citywalk list story now exists with 50 neighborhood check-in points for 2026, grouped into old Shanghai, French Concession, Suzhou Creek, West Bund, and Pudong.
 
 ## What To Do Next
 

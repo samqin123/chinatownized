@@ -197,3 +197,31 @@ Use one entry per meaningful commit or push:
 - Impact: Crawlers now have explicit index and sitemap entry points, plus an LLM-oriented hub page and schema-backed page semantics.
 - Commit: pending
 - Push: no
+
+- Date: 2026-06-02
+- Change: Added a new Shanghai transport guide covering DiDi, mini programs, street-hail avoidance, and the Shanghai Science and Technology Museum station black-car warning.
+- Reason: The user wanted a practical first-time Shanghai taxi guide with a specific safety reminder for visitors.
+- Impact: The Citywalks channel now includes a transport-focused utility post that can be shared alongside route and neighborhood content.
+- Commit: pending
+- Push: no
+
+- Date: 2026-06-02
+- Change: Added a Seven taxi-driver profile story with four local images saved under `public/images/seven-taxi/`.
+- Reason: The user wanted a niche Shanghai story about a well-known English-speaking taxi driver and his WeChat booking account.
+- Impact: The Citywalks channel now includes a human-interest transport story that complements the practical DiDi guide.
+- Commit: pending
+- Push: no
+
+- Date: 2026-06-02
+- Change: Added a Shanghai inbound tourism story about South America visa-free entry and one-year port traffic growth.
+- Reason: The user wanted a publishable rewrite of the South America visa-free anniversary story with Shanghai as the geographic anchor.
+- Impact: The Citywalks channel now includes a policy-and-tourism trend piece aimed at inbound-travel readers.
+- Commit: pending
+- Push: no
+
+- Date: 2026-06-02
+- Change: Added a 50-stop Shanghai citywalk list for 2026 with district-based route clusters.
+- Reason: The user wanted a 50-point Shanghai citywalk article built from a source article and adapted for publication.
+- Impact: The Citywalks channel now includes a large-scale neighborhood checklist for route planning and editorial reuse.
+- Commit: pending
+- Push: no

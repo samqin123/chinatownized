@@ -2,6 +2,308 @@ import type { Guide } from "@/types";
 
 export const guides: Guide[] = [
   {
+    slug: "shanghai-50-citywalk-check-in-points-2026",
+    title: "50 Shanghai Citywalk Check-In Spots for 2026",
+    excerpt:
+      "A practical Shanghai walking list for 2026: 50 places split by neighborhood, from old facades and riverfront streets to post-industrial corridors and the city's most walkable urban pockets.",
+    dateline: "SHANGHAI",
+    category: "citywalks",
+    author: {
+      name: "Liam Walker",
+      avatar: "/authors/liam.jpg",
+      bio: "Former architecture and urbanism journalist from the UK, now based in East Asia. Focused on walkable routes, skyline logic, and urban photography.",
+    },
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    image: "/images/shanghai-hidden-museums-cover.jpg",
+    imageAlt: "Shanghai street scene for a citywalk article",
+    readTime: 12,
+    tags: ["shanghai", "citywalk", "walking guide", "2026", "neighborhoods"],
+    body: `
+      <p>If you want to understand Shanghai in 2026, do not treat it as one city. Treat it as a set of walkable moods. The old French Concession feels nothing like the North Bund. Suzhou Creek is a different story from People's Square. That is why a 50-stop citywalk list is useful: it gives you enough material to build your own route without reducing the city to a single postcard.</p>
+
+      <h2>How to use this list</h2>
+      <p>Don't try to do all 50 in one trip. Use them as a menu. Pick one district, one line of light, and one reason to keep walking. Shanghai works best when you build the day around a few strong anchors instead of trying to check everything off at once.</p>
+      <p>The list below is grouped by area so you can mix old facades, river views, commercial streets, and quieter corners in a way that actually makes sense on foot.</p>
+
+      <figure>
+        <img src="/images/shanghai-hidden-museums-cover.jpg" alt="Shanghai city scene for walking and neighborhood exploration" />
+      </figure>
+
+      <h2>1. Old Shanghai and the Bund edge</h2>
+      <ol>
+        <li>Yu Garden</li>
+        <li>City God Temple area</li>
+        <li>Fuyou Road snacks street</li>
+        <li>Shiliupu area</li>
+        <li>Bund promenade</li>
+        <li>Waibaidu Bridge</li>
+        <li>Broadway Mansions</li>
+        <li>Jiujiang Road</li>
+        <li>East Nanjing Road pedestrian street</li>
+        <li>People's Square</li>
+      </ol>
+      <p>This is the citywalk core for first-time visitors. You get the old river-city layer, the commercial center, and the classic skyline views without crossing the city too much.</p>
+
+      <figure>
+        <img src="/images/shanghai-hidden-museums-postal.jpg" alt="Shanghai urban walking scene near the old city core" />
+      </figure>
+
+      <h2>2. French Concession and design streets</h2>
+      <ol start="11">
+        <li>Wukang Mansion</li>
+        <li>Wukang Road</li>
+        <li>Anfu Road</li>
+        <li>Xinhua Road</li>
+        <li>Fuxing Middle Road</li>
+        <li>Julu Road</li>
+        <li>Changle Road</li>
+        <li>Hunan Road cafes</li>
+        <li>Sinan Mansions</li>
+        <li>Fuxing Park</li>
+      </ol>
+      <p>This is the best zone for a slower walk. It rewards side streets, old plane trees, and short pauses. If the Bund is Shanghai as a stage, the French Concession is Shanghai as a lived-in neighborhood.</p>
+
+      <figure>
+        <img src="/images/shanghai-hidden-museums-fire.jpg" alt="Shanghai heritage streetscape suitable for citywalk inspiration" />
+      </figure>
+
+      <h2>3. Suzhou Creek and heritage-industrial Shanghai</h2>
+      <ol start="21">
+        <li>North Bund waterfront</li>
+        <li>Shanghai Postal Museum</li>
+        <li>Suzhou Creek promenade</li>
+        <li>General Post Office area</li>
+        <li>Bridge crossings near the creek</li>
+        <li>Rockbund</li>
+        <li>Beijing East Road river crossings</li>
+        <li>Bund Origin area</li>
+        <li>North Suzhou Road</li>
+        <li>Qipu Road edge streets</li>
+      </ol>
+      <p>This corridor is one of the city's best answers to “old meets new.” It gives you warehouses, bridges, river bends, and a more urban-texture version of Shanghai that feels less polished than the Bund and more rewarding because of it.</p>
+
+      <h2>4. West Bund and riverfront culture</h2>
+      <ol start="31">
+        <li>West Bund art district</li>
+        <li>Long Museum West Bund</li>
+        <li>West Bund riverside path</li>
+        <li>Longhua Temple area</li>
+        <li>Xuhui Riverside</li>
+        <li>Shanghai Oil Tank Art Center</li>
+        <li>Dream Center</li>
+        <li>Yuz Museum area</li>
+        <li>Binjiang Avenue stretches</li>
+        <li>Riverfront bike path</li>
+      </ol>
+      <p>If you want a more contemporary Shanghai walk, this is the zone. It is broader, more open, and better for long views. The city becomes less about tight streets and more about breathing room.</p>
+
+      <figure>
+        <img src="/images/shanghai-hidden-museums-music.jpg" alt="Shanghai cultural street scene for a longer citywalk route" />
+      </figure>
+
+      <h2>5. Pudong and the modern skyline</h2>
+      <ol start="41">
+        <li>Lujiazui</li>
+        <li>Jin Mao Tower base</li>
+        <li>Shanghai World Financial Center area</li>
+        <li>Shanghai Tower plaza</li>
+        <li>Binjiang Avenue Pudong stretch</li>
+        <li>Binjiang greenway</li>
+        <li>Shanghai Library East area</li>
+        <li>Century Avenue transfer zone</li>
+        <li>Shangcheng Road neighborhood edges</li>
+        <li>North Bund night view finish</li>
+      </ol>
+      <p>Pudong is where Shanghai stops asking for explanation and just becomes itself: tall, reflective, and very easy to photograph after dark. Use this section when you want skyline drama rather than heritage mood.</p>
+
+      <h2>What to remember</h2>
+      <p>The smartest citywalk in Shanghai is not the one with the most stops. It is the one that understands pacing. Ten places in one district will usually beat twenty places scattered across the map. If you build your day around one or two of these clusters, Shanghai will feel much easier to read.</p>
+      <p>And that is the real point of the list. Not to count. To move.</p>
+
+      <h2>Bottom line</h2>
+      <p>These 50 Shanghai citywalk check-in spots are not meant as a strict itinerary. They are a working map for 2026. Use them to shape a morning, a half-day, or a full evening, and let the city do the rest.</p>
+    `,
+  },
+  {
+    slug: "shanghai-south-america-visa-one-year-inbound-tourism",
+    title:
+      "South America Visa-Free Travel to China Turns One: Shanghai Port Entry Tourism Keeps Rising",
+    excerpt:
+      "One year after China's visa-free policy for five South American countries took effect, Shanghai's ports are seeing more visitors moving from quick photo stops to deeper city experiences.",
+    dateline: "SHANGHAI",
+    category: "citywalks",
+    author: {
+      name: "Marcus Chen",
+      avatar: "/authors/marcus.jpg",
+      bio: "Beijing-based travel writer since 2019. Writes practical stories for foreign visitors who want the real travel picture, not the slogan version.",
+    },
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-02",
+    image: "/images/shanghai-hidden-museums-cover.jpg",
+    imageAlt: "Shanghai street scene used as a visual for inbound tourism in the city",
+    readTime: 8,
+    tags: ["shanghai", "inbound tourism", "visa-free", "south america", "travel"],
+    body: `
+      <p>One year after China's visa-free policy for five South American countries took effect, Shanghai's role as an entry point for foreign visitors is getting clearer. The headline is not just that people are coming. It is that they are staying longer, moving beyond the standard photo-op itinerary, and using Shanghai as the start of a deeper China trip.</p>
+
+      <h2>From quick stops to longer stays</h2>
+      <p>The shift is important because it changes what kind of city Shanghai becomes for visitors. A short “check in, take a picture, leave” trip is very different from a stay where people actually walk neighborhoods, eat locally, and use the city as a base for the rest of the journey.</p>
+      <p>That is exactly the transition Shanghai wants. The city already works well as a first landing point. What is changing now is the quality of the time visitors spend here.</p>
+
+      <figure>
+        <img src="/images/shanghai-hidden-museums-cover.jpg" alt="Shanghai street scene representing inbound travel and urban exploration" />
+      </figure>
+
+      <h2>Why Shanghai benefits first</h2>
+      <p>Shanghai has the mix that inbound travelers need most: strong international connectivity, a familiar city image, and enough daily infrastructure to make a first trip feel easy. That matters for South American travelers in particular, because long-haul trips reward places that reduce friction immediately.</p>
+      <p>In practical terms, that means hotels, transport, translation, payment systems, and simple route planning all matter as much as the sights themselves. Shanghai can deliver that better than most cities in China.</p>
+
+      <h2>What “deep experience” looks like</h2>
+      <p>Deep experience does not mean overpacking the itinerary. It means people are spending more time in the city and using it in a more grounded way: a museum morning, a neighborhood lunch, a river walk at night, then a slower second day that reaches beyond the postcard route.</p>
+      <p>That pattern is good for the city and better for visitors. It creates room for local spending, better storytelling, and more realistic memories than a rushed landmark checklist.</p>
+
+      <figure>
+        <img src="/images/shanghai-hidden-museums-postal.jpg" alt="Shanghai Postal Museum area as a reminder that visitors now go beyond the usual postcard stops" />
+      </figure>
+
+      <h2>Why the policy matters after one year</h2>
+      <p>A policy only matters if it changes behavior. In this case, the first-year signal is that travelers are not just using the visa-free lane to enter faster. They are using it to make the whole trip feel more possible.</p>
+      <p>That is why the story is bigger than one policy. It is about how Shanghai and the wider China travel market respond when entry becomes easier and the trip itself becomes more appealing.</p>
+
+      <h2>Shanghai as the first chapter</h2>
+      <p>For many foreign visitors, Shanghai is the city that makes the rest of China feel accessible. It has enough global familiarity to reduce anxiety, but enough local texture to feel distinct. That combination is exactly what a first entry city should do.</p>
+      <p>If the first visit becomes comfortable, the next one becomes ambitious. That is how inbound tourism grows in a way that lasts.</p>
+
+      <figure>
+        <img src="/images/shanghai-hidden-museums-fire.jpg" alt="Shanghai museum scene showing how foreign visitors can move from city arrival to cultural exploration" />
+      </figure>
+
+      <h2>Bottom line</h2>
+      <p>China's visa-free policy for five South American countries has now been in place for a year, and Shanghai is seeing the effect where it matters most: at the port, in the hotels, and on the streets. Visitors are moving beyond the quick “打卡” model and into a slower, deeper version of the city.</p>
+      <p>That is the right direction. If Shanghai can keep turning first arrivals into real stays, the city will remain one of the strongest inbound gateways in China.</p>
+    `,
+  },
+  {
+    slug: "seven-shanghai-taxi-driver-story",
+    title: "Seven, the Shanghai Taxi Driver Who Turned Midlife Reset Into a Niche City Experience",
+    excerpt:
+      "Seven is a 43-year-old Shanghai taxi driver whose English, local knowledge, and service-minded reputation turned him into a small but very real cult figure among visitors who want more than a simple ride.",
+    dateline: "SHANGHAI",
+    category: "citywalks",
+    author: {
+      name: "Daniel Wu",
+      avatar: "/authors/daniel.jpg",
+      bio: "Shanghai-native weekend traveler with a practical eye for neighborhoods, transport, and easy city routes.",
+    },
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    image: "/images/seven-taxi/01-tourist.png",
+    imageAlt: "Seven with a visitor in Shanghai",
+    readTime: 7,
+    tags: ["shanghai", "taxi", "story", "wechat", "local guide"],
+    body: `
+      <p>Shanghai is full of efficient taxis, but every once in a while you meet a driver who turns a normal ride into a small travel story. Seven is one of those people.</p>
+
+      <h2>Who Seven is</h2>
+      <p>Seven is 43. He lost his job in midlife, the kind of reset that can flatten a person if they let it. Instead, he leaned into something he had already built up over years of foreign-enterprise work: very solid English, a calm way with people, and a real understanding of Shanghai as a city rather than just a map of roads.</p>
+      <p>That combination changed everything. He became a taxi driver, but not the anonymous kind. He became the kind of driver people remember, recommend, and message again when they come back to the city.</p>
+
+      <figure>
+        <img src="/images/seven-taxi/02-tourist.png" alt="Seven with tourists in Shanghai" />
+      </figure>
+
+      <h2>Why people look for him</h2>
+      <p>Seven is popular because the experience feels personal without becoming fake. He knows the city. He speaks English well enough to carry a real conversation. And he seems to understand what first-time foreign visitors actually need: not just transport, but reassurance, local context, and someone who can make the city feel less intimidating.</p>
+      <p>That is why people keep trying to reserve him through WeChat. His account is <strong>seventrip</strong>, and if you are lucky enough to get a slot, you are not just booking a taxi. You are booking a very niche Shanghai memory.</p>
+
+      <h2>What makes it special</h2>
+      <p>Shanghai already has plenty of polished travel services. What makes Seven different is that the ride feels like it comes from the city itself. He can talk about neighborhoods, shortcuts, daily life, and the small logic of Shanghai that rarely makes it into guidebooks.</p>
+      <p>For some travelers, that is more valuable than a standard sightseeing transfer. He becomes a local guide, a friend, and a quiet interpreter of the city all at once.</p>
+
+      <figure>
+        <img src="/images/seven-taxi/03-tourist.png" alt="Seven with another tourist in Shanghai" />
+      </figure>
+
+      <h2>Why his reputation matters</h2>
+      <p>Because he is well known, his reputation depends on staying professional. That means reasonable fares, qualified service, and the kind of consistency that makes people feel comfortable recommending him to others. He is a 网红, but not in the empty sense of the word. The service has to hold up, or the whole thing collapses.</p>
+      <p>That balance is exactly why the story works. He is famous enough to be recognized, but still grounded enough to feel like a working driver who knows what he is doing.</p>
+
+      <h2>A very Shanghai kind of experience</h2>
+      <p>If you are lucky enough to ride with Seven, the trip can feel like a side door into the city. Not a scripted tour. Not a formal guide service. Just a driver who knows Shanghai well, speaks to you like a person, and gives you the kind of local context that makes the city feel more alive.</p>
+      <p>That is a rare thing in a place as fast and massive as Shanghai. The city can be overwhelming. The right driver can make it feel intimate.</p>
+
+      <figure>
+        <img src="/images/seven-taxi/04-italian.png" alt="Seven with an Italian visitor in Shanghai" />
+      </figure>
+
+      <h2>Bottom line</h2>
+      <p>If you can reserve Seven through WeChat at <strong>seventrip</strong>, take the ride. It is not just about getting from A to B. It is about meeting a person who turned a midlife reset into a very local, very human Shanghai experience.</p>
+      <p>For visitors who want something niche, warm, and memorable, that is exactly the kind of story Shanghai does best.</p>
+    `,
+  },
+  {
+    slug: "shanghai-taxi-didi-first-time-guide",
+    title: "First Time in Shanghai? Use DiDi, Not Street Hails",
+    excerpt:
+      "If you're landing in Shanghai for the first time, skip the taxi wave-down routine. DiDi is easier, clearer, and usually the least stressful way to get around the city.",
+    dateline: "SHANGHAI",
+    category: "citywalks",
+    author: {
+      name: "Daniel Wu",
+      avatar: "/authors/daniel.jpg",
+      bio: "Shanghai-native weekend traveler with a practical eye for neighborhoods, transport, and easy city routes.",
+    },
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Roewe%20EI5%20Taxi%20in%20Shanghai.jpg",
+    imageAlt: "A Shanghai taxi waiting on a city street in Shanghai",
+    readTime: 8,
+    tags: ["shanghai", "taxi", "didi", "transport", "travel tips"],
+    body: `
+      <p>If you're coming to Shanghai for the first time, don't waste time waving at taxis on the street. Use an app. In most cases, that's the simplest way to avoid confusion, language issues, and the random pickup drama that comes with hailing on the curb.</p>
+
+      <h2>1. DiDi is the default</h2>
+      <p>DiDi is the first app I would install. It is the most reliable option for visitors, and it is usually the easiest one to explain to someone who has never used ride-hailing in China before.</p>
+      <p>Download the app on iOS or Android, sign up with the number or email that works for your account, and set up payment before you need a ride. If you already use Alipay or WeChat, those are the smoothest ways to keep everything inside one ecosystem.</p>
+
+      <figure>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/DiDi%20Logo.svg" alt="DiDi logo" />
+      </figure>
+
+      <p>Once you're in the app, choose the ride type that fits the moment. <strong>Express</strong> is the cheap, practical option. <strong>Premier</strong> is better if you want a nicer car or a little more comfort after a long flight.</p>
+      <p>One small tip matters more than people expect: pin your pickup point clearly. Shanghai has enough tall buildings and busy intersections that GPS can drift, especially around major transport hubs and shopping districts.</p>
+
+      <h2>2. Mini programs can work, but they are not the easiest first move</h2>
+      <p>If you already live inside Alipay or WeChat, you can search for DiDi or T3出行 inside the app and book from there. That can be convenient because you do not need yet another standalone app on your phone.</p>
+      <p>That said, the interface is usually more Chinese-heavy than the full app experience. For a first-time visitor, I still think the standalone DiDi app is the cleaner setup.</p>
+
+      <h2>3. Don't rely on street hails</h2>
+      <p>Street hails are where a lot of first-timers get stuck. Some drivers prefer longer trips, some may not want a short ride, and some won't make the language transition easy. You can absolutely find a taxi on the street, but that's not the same as saying it's the best plan.</p>
+      <p>If you want less friction, order the ride in-app and let the pickup point be visible on the map. You will save yourself a lot of standing around while trying to explain where you are going.</p>
+
+      <h2>4. A few practical backups</h2>
+      <p>Keep your destination ready in Chinese characters. That is the fastest way to avoid confusion at the end of the ride, especially if you're heading somewhere less central.</p>
+      <p>Also make sure you have mobile data. A local eSIM or roaming data plan makes life much easier because you can keep maps, pickup points, and translation tools open while you're moving.</p>
+      <p>If no driver accepts at first, be patient and try again rather than forcing a random curbside option. Sometimes the best move is just to wait another minute.</p>
+
+      <h2>5. Special note: Shanghai Science and Technology Museum station</h2>
+      <p>If you're at the Shanghai Science and Technology Museum metro station, be careful at the exit. There are often unlicensed cars or other unofficial ride offers waiting near the station entrance. Don't take them.</p>
+      <p>The safer move is simple: use DiDi, or take the metro to Century Avenue and transfer to a licensed taxi from there if you want a more conventional cab pickup. That extra stop is usually worth it if you want to avoid hassle.</p>
+
+      <figure>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Taxi%20Shanghai.JPG" alt="Shanghai taxi in traffic" />
+      </figure>
+
+      <h2>6. What I would actually do</h2>
+      <p>If I were arriving in Shanghai for the first time, I'd do three things before I left the hotel: install DiDi, save my destination in Chinese, and make sure I had data turned on. That's enough to cover almost every normal taxi situation in the city.</p>
+      <p>The point is not to overcomplicate it. The point is to make sure you are not stuck outside a station trying to negotiate with the wrong car.</p>
+
+      <h2>Bottom line</h2>
+      <p>For Shanghai, app-based rides are the cleanest answer. DiDi is the one to trust first, mini programs are fine if you're already inside the ecosystem, and street hails are the least predictable option. Skip the black-car temptation at the Science and Technology Museum station, and your day will be much smoother.</p>
+    `,
+  },
+  {
     slug: "shanghai-top-10-museums-practical-shortlist",
     title: "Shanghai's Top 10 Museums: The Shortlist Foreign Visitors Actually Need",
     excerpt:
