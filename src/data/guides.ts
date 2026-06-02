@@ -140,8 +140,8 @@ export const guides: Guide[] = [
     },
     publishedAt: "2026-06-01",
     updatedAt: "2026-06-02",
-    image: "/images/shanghai-hidden-museums-cover.jpg",
-    imageAlt: "Shanghai street scene used as a visual for inbound tourism in the city",
+    image: "/images/inbound-south-america/shanghai-inbound-1.jpg",
+    imageAlt: "Shanghai inbound tourism scene for the South America visa-free anniversary story",
     readTime: 8,
     tags: ["shanghai", "inbound tourism", "visa-free", "south america", "travel"],
     body: `
@@ -152,7 +152,7 @@ export const guides: Guide[] = [
       <p>That is exactly the transition Shanghai wants. The city already works well as a first landing point. What is changing now is the quality of the time visitors spend here.</p>
 
       <figure>
-        <img src="/images/shanghai-hidden-museums-cover.jpg" alt="Shanghai street scene representing inbound travel and urban exploration" />
+        <img src="/images/inbound-south-america/shanghai-inbound-1.jpg" alt="Shanghai inbound tourism scene representing South America visa-free arrivals" />
       </figure>
 
       <h2>Why Shanghai benefits first</h2>
@@ -164,7 +164,7 @@ export const guides: Guide[] = [
       <p>That pattern is good for the city and better for visitors. It creates room for local spending, better storytelling, and more realistic memories than a rushed landmark checklist.</p>
 
       <figure>
-        <img src="/images/shanghai-hidden-museums-postal.jpg" alt="Shanghai Postal Museum area as a reminder that visitors now go beyond the usual postcard stops" />
+        <img src="/images/inbound-south-america/shanghai-inbound-2.jpg" alt="Shanghai inbound tourism image showing deeper city travel beyond the postcard route" />
       </figure>
 
       <h2>Why the policy matters after one year</h2>
@@ -176,7 +176,7 @@ export const guides: Guide[] = [
       <p>If the first visit becomes comfortable, the next one becomes ambitious. That is how inbound tourism grows in a way that lasts.</p>
 
       <figure>
-        <img src="/images/shanghai-hidden-museums-fire.jpg" alt="Shanghai museum scene showing how foreign visitors can move from city arrival to cultural exploration" />
+        <img src="/images/inbound-south-america/shanghai-inbound-3.jpg" alt="Shanghai inbound tourism image showing visitors moving from arrival to cultural exploration" />
       </figure>
 
       <h2>Bottom line</h2>
